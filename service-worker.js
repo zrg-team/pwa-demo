@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/pwa-demo/precache-manifest.442a00028f6d93908bd78bfdf1144fc1.js"
+  "/pwa-demo/precache-manifest.ac46a27fa932ea143b04353851a3bfc2.js"
 );
 
 self.addEventListener('message', (event) => {
@@ -38,29 +38,29 @@ workbox.routing.registerNavigationRoute(workbox.precaching.getCacheKeyForURL("/p
   blacklist: [/^\/_/,/\/[^\/?]+\.[^\/]+$/],
 });
 
-importScripts('https://www.gstatic.com/firebasejs/4.2.0/firebase-app.js')
-importScripts('https://www.gstatic.com/firebasejs/4.2.0/firebase-messaging.js')
+// importScripts('https://www.gstatic.com/firebasejs/4.2.0/firebase-app.js')
+// importScripts('https://www.gstatic.com/firebasejs/4.2.0/firebase-messaging.js')
 
-/*
- * Now initialize firebase app in the servie worker.
- */
-firebase.initializeApp({
-  apiKey: 'AIzaSyC-TdnrW92tPP3_n7oo8netffqH5aJF_0o',
-  authDomain: 'game-store-zrg-team.firebaseapp.com',
-  databaseURL: 'https://game-store-zrg-team.firebaseio.com',
-  projectId: 'game-store-zrg-team',
-  storageBucket: 'game-store-zrg-team.appspot.com',
-  messagingSenderId: '790266601902'
-})
+// /*
+//  * Now initialize firebase app in the servie worker.
+//  */
+// firebase.initializeApp({
+//   apiKey: 'AIzaSyC-TdnrW92tPP3_n7oo8netffqH5aJF_0o',
+//   authDomain: 'game-store-zrg-team.firebaseapp.com',
+//   databaseURL: 'https://game-store-zrg-team.firebaseio.com',
+//   projectId: 'game-store-zrg-team',
+//   storageBucket: 'game-store-zrg-team.appspot.com',
+//   messagingSenderId: '790266601902'
+// })
 
-var messaging = firebase.messaging()
+// var messaging = firebase.messaging()
 
-messaging.setBackgroundMessageHandler(function (payload) {
-  var notificationTitle = payload.data.title
-  var notificationOptions = {
-    body: payload.data.body,
-    icon: payload.data.icon
-  }
-  return self.registration.showNotification(notificationTitle,
-    notificationOptions)
-})
+// messaging.setBackgroundMessageHandler(function (payload) {
+//   var notificationTitle = payload.data.title
+//   var notificationOptions = {
+//     body: payload.data.body,
+//     icon: payload.data.icon
+//   }
+//   return self.registration.showNotification(notificationTitle,
+//     notificationOptions)
+// })
