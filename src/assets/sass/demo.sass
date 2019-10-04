@@ -1,0 +1,6940 @@
+/*Summary text
+ *1.Style Background
+ *2.
+
+body
+  font-size: 18px
+  line-height: 23px
+  color: #fff
+  width: 100%
+  font-weight: 100
+  overflow-x: hidden
+
+input[type="color"],
+input[type="date"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="email"],
+input[type="month"],
+input[type="number"],
+input[type="password"],
+input[type="search"],
+input[type="tel"],
+input[type="text"],
+input[type="time"],
+input[type="url"],
+input[type="week"],
+select:focus,
+textarea
+  font-size: 16px !important
+
+/*1. Style Background
+#error-content 
+  a 
+    color: #FFCF20
+
+.hsdivinit
+  position: fixed
+  padding: 10px 15px
+  transition: all 1s cubic-bezier(0.25, 0.8, 0.25, 1)
+  background: #f33b3b
+  width: 100%
+  height: 20px
+  top: 0
+  font-size: 15px
+  z-index: 999
+  color: #fff
+  display: flex
+  justify-content: center
+  align-items: center
+
+.hsdivshow
+  -webkit-animation: hsshowpulse .5s ease both
+
+@-webkit-keyframes hsshowpulse
+  0%
+    opacity: 1
+    top: -100px
+  100%
+    opacity: 1
+    top: 0
+    
+.hsdivhide
+  -webkit-animation: hshidepulse .3s ease both
+
+@-webkit-keyframes hshidepulse
+  0%
+    opacity: 1
+    top: 0
+  100%
+    opacity: 0
+    top: -100px
+
+.settings .button,.link-add-ticket .button
+  background-color: transparent
+
+.button, input[type='submit']
+  position: relative
+  border-radius: 45px
+  -webkit-border-radius: 45px
+  -moz-border-radius: 45px
+  background-color: #FFFFFF30
+  will-change: transform
+  display: inline-block
+#block-under-construction .logo_main
+  position: absolute
+  top: 0
+.accordion_index
+  display: grid
+  grid-template-columns: 1fr 1fr
+  margin-bottom: 20px
+.number-disabled
+  background-color: rgb(119, 119, 119) !important
+  color: rgba(255, 255, 255,0.5) !important
+.logo_main
+  display: flex;
+  position: relative
+  z-index: 999999
+  img
+    height: 88px
+#block-phases .block-step-notes .items
+  background-color: #53527a
+  box-shadow: 0 0 25px 0 rgba(199, 133, 5, 0.3)
+  -webkit-box-shadow: 0 0 25px 0 rgba(199, 133, 5, 0.3)
+  -moz-box-shadow: 0 0 25px 0 rgba(199, 133, 5, 0.3)
+  border-radius: 10px
+  -webkit-border-radius: 10px
+  -moz-border-radius: 10px
+  font-size: 18px
+  letter-spacing: 0.59px
+  line-height: 26px
+  padding: 30px 25px
+  min-height: 135px
+.pull-bottom
+  .mess
+    margin-left: 20px
+    font-size: 14px
+    font-weight: 300
+    color: #FFCF20
+.md-checkbox
+  position: relative
+  margin: 1em 0 0 0
+  text-align: left
+
+  label
+    cursor: pointer
+    display: inline
+    line-height: 15px
+    vertical-align: top
+    font-size: 14px
+    font-weight: 200
+    clear: both
+    padding-left: 1px
+
+    &:not(:empty)
+    padding-left: 0.75em
+
+  label:before, label:after
+    content: ""
+    position: absolute
+    left: 0
+    top: 0
+
+  label:before
+    width: 18px
+    height: 18px
+    background: transparent
+    border: 1px solid rgba(255, 255, 255, 1)
+    border-radius: 0.125em
+    cursor: pointer
+    transition: background .3s
+
+  input[type="checkbox"]
+    outline: 0
+    visibility: hidden
+    width: 1.25em
+    margin: 0
+    display: block
+    float: left
+    font-size: inherit
+
+  input[type="checkbox"]:checked + label:before
+    background: #FFCF20
+    border: none
+
+  input[type="checkbox"]:checked + label:after
+    transform: translate(2px, 1px) rotate(-45deg)
+    width: 14px
+    height: 9px
+    border: 0.125em solid #fff
+    border-top-style: none
+    border-right-style: none
+
+  input[type="checkbox"]:disabled + label:before
+    border-color: rgba(0, 0, 0, 0.26)
+
+  input[type="checkbox"]:disabled:checked + label:before
+    background: rgba(0, 0, 0, 0.26)
+
+.txtPrize
+  font-family: "GROBOLD"
+  color: rgb(255, 207, 32)
+  margin-bottom: 0px
+  font-size: 15px
+  margin-right: 2px
+
+.button-hover
+  &:before
+    transform: translate(-120%, -50%) translateZ(0)
+  &:hover:before
+    transform: translate(-45%, -34%) translateZ(0)
+
+#navbarSupportedContent
+  a.dropdown-toggle::after
+    display: none !important
+.custom-table tr:not:first-child
+  font-weight: 100
+.section-payment-right-mobile
+  display: none
+.raffle 
+  .item
+    span 
+      width: 90px !important
+      height: 90px  !important
+      line-height: 96px !important
+      font-size: 32px !important
+      color: #ffffff !important
+      background-color: #464668 !important
+.button-mat
+  color: #5533ff
+  border: 0 transparent
+  border-radius: 45px
+  -webkit-border-radius: 45px
+  -moz-border-radius: 45px
+  transition: 0.3s ease-in-out
+  transition-delay: 0.35s
+  overflow: hidden
+  &:before
+    content: ""
+    display: block
+    background: #ffffff40
+    position: absolute
+    width: 400%
+    height: 500%
+    border-radius: 100%
+    transition: 0.36s cubic-bezier(0.4, 0, 1, 1)
+  &:hover
+    color: transparent
+    .psuedo-text
+      color: #ffffff
+.psuedo-text 
+  display: flex
+  margin: 0 auto
+  .icon-login
+    transform: rotate(180deg)
+  align-items: center
+.button-disable
+  background: none !important
+  color: #ffffff50 !important
+  border: 1px solid #ffffff2e !important
+
+#side-menu
+  position: fixed
+  left: 0
+  background-color: #53527A
+  color: #FFFFFF
+  width: 100px
+  font-size: 14px
+  z-index: 9999
+  ul
+    padding-left: 0
+    margin-bottom: 0
+    li
+      text-align: center
+      /* min-height: 80px
+      /* padding-top: 18px
+      position: relative
+      cursor: pointer
+      &.active
+        background-color: #FFCF20
+        color: #FFF
+        opacity: 0.9
+        a > *
+          color: #FFF
+      a
+        color: #ffffff80
+        text-decoration: none
+        display: block
+        min-height: 62px
+        vertical-align: middle
+        padding: 15px 0
+        &.active
+          color: #FFF
+          text-decoration: none
+      font-size: 14px
+      color: #ffffff80
+      &.active
+        >
+        .icon-notification
+          .icon-649
+            background: url("../images/lotto649.svg") no-repeat top center
+      &:hover a
+        text-decoration: none
+        color: #fff
+        background-color: #FFCF20
+        opacity: 0.9
+      &.active
+        .icon-649
+          background: url('../images/lotto649.svg') no-repeat top center
+      p
+        margin: 5px 0 0 0
+        line-height: 12px
+        font-weight: 100
+
+.icon-menu
+  display: inline-block
+  width: 36px
+  height: 24px
+
+.icon-649
+  background: url('../images/lotto649_inactive.svg') no-repeat top center
+
+#side-menu ul li:hover
+  .icon-649
+    background: url('../images/lotto649.svg') no-repeat top center
+.circle-noti
+  background-color: #E54545
+  border-radius: 1px
+  -webkit-border-radius: 1px
+  -moz-border-radius: 1px
+  color: #fff
+  width: 15px
+  height: 19px
+  position: absolute
+  line-height: 16px
+  right: 30px
+
+.content-notification, .content-history
+  position: absolute
+  top: 175px
+  left: 100px
+  display: none
+.content-history.show-menu
+  p
+    margin-left: 5px 
+.content-notification ul, .content-history ul
+  background-color: #53527A
+  text-align: left
+  list-style: none
+
+.content-notification ul li
+  &:first-child
+    border: none
+  border-top: 1px solid #E6EAEE50
+  display: block
+  min-width: 230px
+  text-align: left
+  padding: 11px 20px
+  color: rgba(255, 255, 255, 0.5)
+  min-height: 69px
+  position: relative
+  font-size: 14px
+
+#side-menu ul li .active
+  text-decoration: none
+  color: #fff
+  background-color: #FFCF20
+  opacity: 0.9
+
+.quantaraffle
+  font-size: 18px !important
+
+.content-notification ul li
+  p
+    margin-bottom: 0
+  a
+    color: rgba(255, 255, 255, 0.5)
+  &:hover a
+    text-decoration: none
+    color: #fff
+.text-number-usd
+  opacity: 0.6
+  margin-top: -15px
+  height: 55px
+.toast_notification 
+  background: #ECECEC
+  width: 350px
+  box-sizing: border-box
+  padding: 20px
+  border-radius: 4px
+  -moz-border-radius: 4px
+  -webkit-border-radius: 4px
+  position: fixed
+  bottom: 10px
+  right: 8%
+  z-index: 99999
+  p
+    color: #333333
+    margin-bottom: 10px
+  a
+    color: #005EB0 !important
+    font-weight: bold
+    cursor: pointer
+    text-decoration: underline !important
+  button
+    width: 27px
+    height: 27px
+    color: #ECECEC
+    position: absolute
+    top: -12px
+    right: -11px
+    border-radius: 100%
+    background-color: #333333
+    border: 2px solid #ECECEC
+    transform: rotate(45deg)
+    cursor: pointer
+    &::before
+      content: ''
+      position: absolute
+      width: 12px
+      height: 2px 
+      border-radius: 4px
+      -moz-border-radius: 4px
+      -webkit-border-radius: 4px
+      left: 6px
+      top: 10px
+      background-color: #ffffff
+    &::after
+      content: ''
+      position: absolute
+      width: 2px
+      height: 12px 
+      border-radius: 4px
+      -moz-border-radius: 4px
+      -webkit-border-radius: 4px
+      top: 5px
+      left: 11px
+      border: none
+      background-color: #ffffff
+
+.custom_pri
+  >div
+    font-size: 24px !important
+  span
+    font-size: 16px !important
+    padding-top: 0px !important
+.custom
+  display: flex
+  align-items: center
+  span  
+    font-size: 21px
+    padding-top: 0px
+  >div 
+    margin-right: 5px
+    position: relative
+    font-size: 32px
+    z-index: 111
+    line-height: 42px
+    overflow: hidden
+    text-overflow: ellipsis
+    max-width: 325px
+    min-width: 25px
+.custom--table-scroll
+  .row
+    &.custom--table-header
+      font-size: 14px
+      color: #ffffffa6 !important
+      border-bottom: 1px solid #ffffff31
+      div[class*='col-']
+        padding: 12px 0
+    &.custom--table-row
+      font-size: 16px
+      border-bottom: 1px solid #ffffff31
+      div[class*='col-']
+        padding: 12px 0
+        min-height: 57px
+        display: flex
+        flex-flow: inherit
+        align-items: center
+      p
+        margin-bottom: 0px !important
+      .detail-item-ticket-bought
+        span
+          margin-right: 10px
+        span:last-child
+          margin-right: 0
+
+.content-history ul
+  padding-top: 35px
+  padding-bottom: 5px
+  padding-left: 15px
+  li
+    text-align: left
+    padding-right: 20px
+    font-weight: bold
+    a
+      font-size: 14px
+      color: #fff
+      &:hover
+        text-decoration: none
+.listFv
+  height: 370px !important
+.icon-coin
+  position: absolute
+  right: 18px
+  bottom: 15px
+
+.content-notification ul li p
+  margin-bottom: 0
+  &:first-child
+    font-weight: bold
+
+.mar-top-30
+  margin-top: 30px !important
+
+.mar-top-50
+  margin-top: 50px !important
+
+.bg-orange
+  background-color: #FFCF20
+
+.bg-purple
+  background-color: #53527A
+
+.text-orange
+  color: #FFCF20
+  font-family: "GROBOLD"
+
+a
+  &:hover, &:focus
+    outline: 0
+    box-shadow: none
+    -webkit-box-shadow: none
+    -moz-box-shadow: none
+    text-decoration: none
+
+button
+  &:hover, &:focus
+    outline: 0
+    box-shadow: none
+    -webkit-box-shadow: none
+    -moz-box-shadow: none
+    text-decoration: none
+#count-down-block
+  position: relative
+  margin-top: 6px
+  color: #FFFFFF
+  letter-spacing: -0.08px
+  text-shadow: 0 0 10px 0 rgba(45,45,73,0.2)
+  h2
+    opacity: 0.6
+    position: absolute
+    top: 45px
+    font-size: 20px
+    font-weight: 200
+    text-transform: capitalize
+    color: #ffffff
+  .countdown_item:last-child .countdown_number:after
+    content: none
+  .countdown_item:first-child .countdown_number:after
+    content: none
+  .countdown_item
+    margin-right: 10px
+    letter-spacing: 1px
+    .countdown_time
+      display: none
+    .countdown_number
+      font-size: 32px
+      background-color: transparent !important
+      box-shadow: none !important
+      -moz-box-shadow: none !important
+      -webkit-box-shadow: none !important
+      border-radius: 0 !important
+      -moz-border-radius: 0 !important
+      -webkit-border-radius: 0 !important
+      color: #ffffff !important
+      width: auto
+      padding-left: 0
+      &::before
+        content: none
+      &::after
+        content: ':'
+        position: absolute
+        font-size: 26px
+        color: #ffffff
+        right: -9px
+        top: 3px
+.count-down-block
+  letter-spacing: -0.08px	
+  text-shadow: 0 0 10px 0 rgba(45,45,73,0.2)
+  font-weight: bold
+  h2
+    font-size: 16px
+    opacity: 0.6
+  .countdown_form
+    display: flex
+    .countdown_item:last-child .countdown_number:after
+      content: none
+    .countdown_item
+      margin-right: 25px
+      letter-spacing: 15px
+      text-align: center
+      &:last-child
+        margin-right: 0px
+      .countdown_number
+        background-color: #ffffff
+        -webkit-box-shadow: -2px -5px 9px -1px rgba(0,0,0,0.2)
+        -moz-box-shadow: -2px -5px 9px -1px rgba(0,0,0,0.2)
+        box-shadow: -2px -5px 9px -1px rgba(0,0,0,0.2)
+        border-radius: 2px
+        -moz-border-radius: 2px
+        -webkit-border-radius: 2px
+        color: #53527A
+        width: 50px
+        padding-left: 10px
+        position: relative
+        &::before
+          content: ''
+          position: absolute
+          height: 100%
+          width: 1px
+          background-color: rgba(83,82,122,0.8)
+          left: 24px
+          top: 0px
+        &::after
+          content: ':'
+          position: absolute
+          font-size: 24px
+          color: #ffffff
+          right: -32px
+          top: -3px
+      .countdown_time
+        font-size: 11px
+        letter-spacing: 1px
+.semi-bold
+  font-weight: 400
+
+.title-section
+  font-family: 'GROBOLD'
+  font-size: 85px
+  letter-spacing: 0.42px
+  line-height: 102px
+  text-shadow: 0 0 10px 0 rgba(46, 26, 52, 0.2)
+  text-align: center
+
+.background
+  position: relative
+  z-index: 0
+
+.mobile
+  display: none
+.block-under-construction
+#block-under-construction
+  display: flex
+  justify-content: center
+  align-items: center
+  background-position-y: 40% !important
+#wrapper,#block-under-construction
+  position: absolute
+  min-height: 100%
+  height: auto
+  width: 100%
+  z-index: 1
+  top: 0
+  background: url("../images/bg.svg") no-repeat top center
+  background-size: cover
+#navigation
+  display: flex
+  justify-content: flex-end
+  padding: 0
+  a, .lang-selects button
+    color: #fff
+    font-size: 14px
+    font-weight: bold
+    line-height: 18px
+    display: flex
+    letter-spacing: 0.54px
+    padding: 13px 10px
+    margin-right: 10px
+    height: 50px
+    min-width: 122px
+    &::after
+      content: ""
+      position: absolute
+      background: url("../images/bg_small.svg")
+      height: 0px
+      width: 0px
+      right: 0
+      top: 0
+
+
+  li
+    &:last-child a
+      margin-right: 0
+    &.active a.button, &:hover a.button
+      background-color: #FFCF20
+    display: flex
+    justify-content: center
+    z-index: 9999
+  a span
+    vertical-align: top
+    line-height: 30px
+  .icon-home, .icon-login, .icon-faq, .icon-register, .icon-game-play, .icon-ticket, .icon-download, img
+    margin-right: 10px
+    display: inline-block
+  &.kyc-menu
+    position: absolute
+    right: 0
+    top: 27px
+    .dropdown-toggle::after
+      position: relative
+      top: 8px
+    li
+      a
+        background: none !important
+        min-width: inherit
+        &:hover
+          color: #FFCF20
+          background: none !important
+      &.active a
+        background: none
+        color: #FFCF20
+    .dropdown-menu
+      background-color: #56557C
+      border: none
+      box-shadow: none
+      -webkit-box-shadow: none
+      -moz-box-shadow: none
+      border-radius: 0
+      -webkit-border-radius: 0
+      -moz-border-radius: 0
+      padding: 0
+      a
+        padding: 8px 20px
+        border-bottom: 1px solid #ffffff57
+        line-height: 25px
+        height: auto
+        color: #D3D2E3
+        font-size: 12px
+        letter-spacing: 0.38px
+        &:last-child
+          border-bottom: none
+@keyframes opacitySlider
+  0%
+    opacity: .8
+  100%
+    opacity: 1
+.carousel
+  border-radius: 10px 0 0 10px
+  -moz-border-radius: 10px 0 0 10px
+  -o-border-radius: 10px 0 0 10px
+  -webkit-border-radius: 10px 0 0 10px
+  height: 250px
+  max-width: 560px
+  margin: 200px auto auto auto
+  position: relative 
+  overflow: hidden
+  width: 100%
+  .slides
+    width: 400%
+    left: 0
+    padding-left: 0
+    overflow: hidden
+    list-style: none
+    position: relative
+    img
+      height: 250px
+      width: 100%
+      animation: opacitySlider .5s linear ease
+    li
+      width: 25%
+      position: relative
+      float: left
+  .slidesNavigation
+    display: block
+    list-style: none
+    text-align: center
+    bottom: 1em
+    position: absolute
+    width: 1024px
+    left: 50%
+    margin-left: -25px
+    label
+      float: left
+      margin: 6px
+      display: block
+      height: 8px
+      width: 8px
+      -webkit-border-radius: 50%
+      border-radius: 50%
+      border: solid 1px transparent
+      background: #ffffff
+      transition: all .5s ease      
+      font-size: 0
+    .active
+      cursor: pointer
+      transform: scale(1.3)
+      border: solid 1px #ffffff      
+      transition: all .5s ease
+      background: #fff
+    .disabled
+      cursor: pointer
+      transform: scale(1.3)
+      border: solid 1px #ffffff      
+      transition: all .5s ease
+      background: #ffffff50
+  input
+    display: none
+
+.row_slider 
+  .carousel .slidesNavigation label
+    margin: 6px 6px -10px 6px
+  .carousel
+    height: 111px
+    max-width: 100%
+    margin: 0px auto 20px auto  
+    border-radius: 10px
+    -moz-border-radius: 10px
+    -webkit-border-radius: 10px
+    .slides img
+      height: 111px
+.right .carousel
+  height: 190px
+  margin: 0px auto auto auto  
+  border-radius: 0px 10px 10px 0px
+  -moz-border-radius: 0px 10px 10px 0px
+  -webkit-border-radius: 0px 10px 10px 0px
+
+.carousel
+  border-radius: 10px 0 0 10px
+  -moz-border-radius: 10px 0 0 10px
+  -o-border-radius: 10px 0 0 10px
+  -webkit-border-radius: 10px 0 0 10px
+  height: 250px
+  transition: all .5s ease
+  max-width: 560px
+  margin: 200px auto auto auto
+  position: relative
+  overflow: hidden
+  .slides
+    width: 400%
+    left: 0
+    padding-left: 0
+    overflow: hidden
+    list-style: none
+    position: relative
+    img
+      height: 250px
+    li
+      width: 25%
+      position: relative
+      float: left
+  .slidesNavigation
+    display: block
+    list-style: none
+    text-align: center
+    bottom: 1em
+    position: absolute
+    width: 1024px
+    left: 50%
+    margin-left: -25px
+    label
+      float: left
+      margin: 6px
+      display: block
+      height: 8px
+      width: 8px
+      -webkit-border-radius: 50%
+      border-radius: 50%
+      border: solid 1px transparent
+      background: #ffffff
+      transition: all .5s ease      
+      font-size: 0
+      &:hover
+        cursor: pointer
+        transform: scale(1.3)
+        border: solid 1px #ffffff      
+        transition: all .5s ease
+        background: #fff
+  input
+    display: none
+
+.menu
+  position: relative
+
+#block-banner
+  margin-top: 80px
+  &:before
+    content: ''
+    display: block
+    position: absolute
+    top: -80px
+    width: 100%
+    height: 100%
+    z-index: -1
+  h1, h2, h3
+    text-align: center
+  h1
+    font-family: 'GROBOLD'
+    font-size: 85px
+    letter-spacing: 0.43px
+    text-shadow: 0 0 10px 0 rgba(87, 89, 125, 0.2)
+    line-height: 102px
+    margin: 30px 0
+  h2
+    font-size: 24px
+    font-weight: bold
+    letter-spacing: 0.5px
+    line-height: 31px
+    text-align: center
+    text-shadow: 0 0 10px 0 rgba(73, 73, 114, 0.2)
+  h3
+    font-size: 24px
+    font-weight: bold
+    letter-spacing: 0.5px
+    line-height: 31px
+    text-shadow: 0 0 10px 0 rgba(73, 73, 114, 0.2)
+  .block-awards-border
+    border-radius: 10px !important
+    -webkit-border-radius: 10px !important
+    -moz-border-radius: 10px !important
+  .block-awards
+    width: 100%
+    margin: 200px auto 30px auto
+    border-radius: 0px 10px 10px 0px
+    -webkit-border-radius: 0px 10px 10px 0px
+    -moz-border-radius: 0px 10px 10px 0px
+    background-color: #595f84
+    padding: 35px 30px 20px 30px
+    position: relative
+    z-index: 1
+    height: 250px
+    .jackpot-header
+      position: absolute
+      top: -40px
+      left: 33px
+      min-width: 260px;
+      img
+        height: 80px !important
+        width: 100%
+        position: absolute
+        left: -7px
+        filter: drop-shadow(1px 2px 4px #555)
+      p
+        position: relative
+        left: 15px
+        margin: 0
+        &.large-text
+          font-size: 24px
+          text-shadow: -1px -1px 1px rgba(255,255,255,.1), 1px 2px 1px rgba(0,0,0,.5)
+          font-family: GROBOLD
+          top: 12px
+        &.small-text
+          font-size: 20px
+          font-weight: bold
+          text-shadow: -1px -1px 1px rgba(255,255,255,.1), 1px 2px 1px rgba(0,0,0,.5)
+          top: 5px
+    .icon_rangle
+      content: ''
+      display: block
+      position: absolute
+      width: 100%
+      max-width: 100%
+      height: 250px
+      right: 0
+      top: 0
+      z-index: -1
+    &:before
+      content: ''
+      display: block
+      position: absolute
+      width: 330px
+      height: 330px
+      right: -157px
+      top: -112px
+      transition: 0.5s
+      z-index: 3
+    p
+      &:first-child
+        font-size: 14px
+        font-weight: bold
+        letter-spacing: 0.54px
+        line-height: 18px
+        margin-bottom: 20px
+      &:nth-child(2)
+        font-size: 44px
+        letter-spacing: -0.11px
+        line-height: 31px
+        text-shadow: 0 0 10px 0 rgba(45, 45, 73, 0.2)
+        font-weight: bold
+        margin-bottom: 8px
+        span
+          font-size: 24px
+          font-weight: normal
+      &:nth-child(3)
+        font-size: 18px
+        line-height: 23px
+        text-shadow: 0 0 10px 0 rgba(45, 45, 73, 0.2)
+    h6
+      font-family: 'GROBOLD'
+      font-size: 52px
+      letter-spacing: 1.08px
+      line-height: 62px
+      text-shadow: 0 0 10px 0 rgba(73, 73, 114, 0.2)
+      position: relative
+      z-index: 2
+
+.button-login
+  padding: 15px 50px
+  background-color: #FFCF20
+  box-shadow: 0 0 25px 0 rgba(199, 133, 5, 0.3)
+  -webkit-box-shadow: 0 0 25px 0 rgba(199, 133, 5, 0.3)
+  -moz-box-shadow: 0 0 25px 0 rgba(199, 133, 5, 0.3)
+  a
+    font-size: 14px
+    font-weight: bold
+    letter-spacing: 0.54px
+    color: #fff
+    &:hover
+      text-decoration: none
+
+.button-join
+  border-radius: 50px
+  background-color: #FFCF20
+  box-shadow: 0 0 25px 0 rgba(199, 133, 5, 0.3)
+  padding: 25px 50px
+  color: #fff
+  display: inline-block
+  margin-top: 15px
+  font-size: 24px
+  letter-spacing: 0.92px
+  line-height: 30px
+  font-weight: bold
+  &:hover
+    text-decoration: none
+    color: #fff
+
+.button-buy-ticket
+  background-color: #FFCF20
+  border-radius: 50px
+  -webkit-border-radius: 50px
+  -moz-border-radius: 50px
+  font-size: 14px
+  letter-spacing: 0.54px
+  font-weight: bold
+  padding: 15px 40px
+  display: inline-block
+  cursor: pointer
+  color: #FFF
+
+.button-limit
+  background-color: #FFCF20
+  border-radius: 50px
+  -webkit-border-radius: 50px
+  -moz-border-radius: 50px
+  font-size: 14px
+  letter-spacing: 0.54px
+  font-weight: bold
+  padding: 15px 40px
+  display: inline-block
+  cursor: pointer
+  color: #FFF
+  &:hover
+    color: #FFF
+  a
+    color: #FFFFFF
+    &:hover
+      color: #FFFFFF
+      text-decoration: none
+
+.button-let-do
+  margin-top: 50px
+
+.button-let-steps
+  border-radius: 50px
+  -webkit-border-radius: 50px
+  -moz-border-radius: 50px
+  background-color: #FFCF20
+  box-shadow: 0 0 25px 0 rgba(199, 133, 5, 0.3)
+  -webkit-box-shadow: 0 0 25px 0 rgba(199, 133, 5, 0.3)
+  -moz-box-shadow: 0 0 25px 0 rgba(199, 133, 5, 0.3)
+  color: #fff
+  padding: 25px 60px
+  margin-bottom: 50px
+  font-weight: bold
+  font-size: 24px
+  letter-spacing: 0.92px
+  line-height: 31px
+  &:hover
+    text-decoration: none
+    color: #fff
+
+#block-phases
+  margin-top: 285px
+
+.small-title
+  font-size: 24px
+  letter-spacing: 0.5px
+  line-height: 31px
+  text-align: center
+  text-shadow: 0 0 10px 0 rgba(73, 73, 114, 0.2)
+  text-transform: uppercase
+
+#block-phases
+  .step
+    text-align: center
+    display: flex
+    align-content: center
+    margin: 100px auto 30px auto
+    width: 800px
+    position: relative
+    &:before
+      content: ''
+      position: absolute
+      background-color: #FCC706
+      width: 100%
+      height: 5px
+      display: inline-block
+    span
+      background-color: #FCC706
+      color: #fff
+      font-size: 24px
+      letter-spacing: 0.92px
+      font-weight: bold
+      border-radius: 50%
+      width: 60px
+      height: 60px
+      display: inline-block
+      line-height: 60px
+    .step-1, .step-2, .step-3
+      position: absolute
+      bottom: -30px
+  .step-mobile
+    display: none
+  .step
+    .step-1
+      left: 0
+    .step-2
+      left: 45%
+    .step-3
+      right: 0
+  .block-step-notes
+    .outer
+      background-color: #53527A
+      /*opacity: 0.8
+      border-radius: 10px
+      -webkit-border-radius: 10px
+      -moz-border-radius: 10px
+      font-size: 15px
+      letter-spacing: 0.59px
+      line-height: 26px
+      padding: 20px 25px 10px 25px
+      min-height: 372px
+      &.block-raffle .text-join
+        margin: 24px -20px 0 -20px
+        min-height: 55px
+        justify-content: center
+        align-items: center
+        display: flex
+      &.block-649
+        background: url("../images/background_lotto649.svg")
+        background-position: top left
+        background-size: 350px auto
+        background-repeat: no-repeat
+        margin: 0 auto
+    .block-649 .comming-soon, .block-545 .comming-soon, .block-raffle .comming-soon
+      margin-top: 240px
+      position: relative
+    .block-649 .comming-soon img, .block-545 .comming-soon img, .block-raffle .comming-soon img
+      position: absolute
+      top: 0
+      left: 0
+    .block-649 .comming-soon p, .block-545 .comming-soon p, .block-raffle .comming-soon p
+      position: relative
+      top: 20px
+      font-size: 20px
+      text-transform: uppercase
+    .comming-soon 
+      p
+        color: white !important
+      img
+        width: 100%
+    .outer.block-raffle .text-randao
+      text-decoration: none
+    .block-raffle
+      .text-number-eth, .text-ward
+    //margin-bottom: 12px
+    .head-title-gaming
+      position: relative
+      clear: both
+      margin-bottom: 50px
+    .icon
+      display: flex
+      align-items: center
+      height: 100%
+      justify-content: flex-end
+      justify-content: flex-end
+    .head-title-gaming
+      .img-gaming
+        max-width: 55%
+        position: absolute
+        top: -65px
+      .link-gaming
+        display: inline-block
+        text-align: right
+        border-radius: 3px
+        -webkit-border-radius: 3px
+        -moz-border-radius: 3px
+        padding: 5px 18px
+        background-color: #A8B4C3
+        float: right
+        will-change: transform
+        position: relative
+        color: #fff
+        &:hover
+          text-decoration: none
+      .link-selling
+        color: #FFFFFF
+        font-size: 15px
+        font-weight: bold
+        text-align: center
+        background-color: #F7981C
+      .link-draw-break, .link-selling-paused
+        color: #FFFFFF
+        font-size: 16px
+        height: 32px
+        text-align: center
+        background-color: #A8B4C3
+      .link-selling-finished
+        color: #FFFFFF
+        font-size: 14px
+        padding: 3px 8px
+        cursor: default
+        text-align: center
+        background-color: #5CB85C
+      .link-calculating-prizes
+        color: #FFFFFF
+        font-size: 16px
+        font-weight: bold
+        text-align: center
+        background-color: #5BC0DE
+      .link-draw-finished
+        color: #FFFFFF
+        font-size: 16px
+        font-weight: bold
+        text-align: center
+        background-color: #E95A85
+    .text-ward
+      margin-bottom: 10px
+      color: #FFFFFF
+      font-size: 16px	
+      font-weight: bold	
+      line-height: 21px
+    .text-number-eth
+      font-size: 24px
+      font-weight: bold
+      margin-bottom: 5px
+      text-overflow: ellipsis
+      white-space: nowrap
+      position: relative
+      z-index: 1
+      i
+        font-size: 24px
+        position: relative
+        bottom: 20px
+    .countdown
+      margin-top: 25px
+      display: flex
+      text-align: center
+      justify-content: center
+      .item
+        span
+          background-color: #FFF2F1
+          box-shadow: 0 0 2px 0 rgba(246, 37, 59, 0.43)
+          -webkit-box-shadow: 0 0 2px 0 rgba(246, 37, 59, 0.43)
+          -moz-box-shadow: 0 0 2px 0 rgba(246, 37, 59, 0.43)
+          display: inline-block
+          padding: 8px 10px
+          color: #46456E
+          font-size: 24px
+          font-weight: bold
+          margin-right: 1px
+        p
+          font-size: 15px
+      .dots
+        font-size: 23px
+        position: relative
+        top: 4px
+    .text-join
+      background-color: #3B3A5E
+      color: #fff
+      font-size: 14px
+      line-height: 17px
+      margin-top: 20px
+      border-radius: 6px
+      -webkit-border-radius: 6px
+      -moz-border-radius: 6px
+      padding: 8px
+      min-height: 58px
+      overflow-y: auto
+.block-step-notes .row
+  display: flex
+  justify-content: center
+
+.raffle-649-status #block-phases
+  margin-top: 80px
+  .block-step-notes .row:not(:first-child)
+    margin-top: 55px
+
+#block-phases .block-step-notes
+  .link-randao
+    line-height: 44px
+    i
+      position: relative
+      top: 2px
+      margin-left: 15px
+  .text-randao
+    &:not(.with-description)
+      color: #FFCF20
+      font-size: 16px
+      font-weight: bold
+      text-decoration: underline
+    &.with-description
+      color: white
+      font-size: 16px
+      font-weight: normal
+      text-decoration: underline
+  .button-play
+    -webkit-background-size: contain
+    background-size: contain
+    color: #fff
+    text-align: center
+    height: 68px
+    display: flex
+    justify-content: center
+    flex-direction: column
+  .button-play-disabled
+    -webkit-background-size: contain
+    background-size: contain
+    color: #fff
+    text-align: center
+    height: 68px
+    display: flex
+    justify-content: center
+    flex-direction: column
+  .button-play-disable
+    cursor: not-allowed
+  .button-play
+    &:hover
+      text-decoration: none
+    span:first-child
+      text-transform: uppercase
+      font-size: 20px
+      font-weight: bold
+      display: block
+  .button-play-disabled span:last-child, .button-play span:last-child
+    font-size: 14px
+  .comming-soon
+    text-align: center
+    display: block
+    margin-top: 70px
+    p
+      font-family: 'GROBOLD'
+      font-size: 32px
+      color: #FFCF20
+      margin-top: 20px
+
+#block-latest-results
+  margin-top: 210px
+  overflow: auto
+  &::-webkit-scrollbar-thumb
+    background: #FFCF20
+  .inner
+    border-radius: 10px 
+    -webkit-border-radius: 10px 
+    -moz-border-radius: 10px 
+    background-color: #53527A
+    color: #fff
+    margin: 0
+  .block-result
+    text-align: center
+    padding: 35px 0
+    
+    background-color: #4B4A74
+    p
+      &:first-child
+        font-family: 'GROBOLD'
+        font-size: 24px
+        letter-spacing: 0.92px
+        line-height: 29px
+        margin-bottom: 8px
+        color: #FFCF20
+      &:nth-child(2)
+        font-size: 18px
+        letter-spacing: 0.69px
+        line-height: 23px
+        margin-bottom: 8px
+      &:nth-child(3)
+        color: #ffffff
+        font-weight: bold
+        font-size: 16px
+      &:nth-child(2)
+        &:after, &:before
+          content: ''
+          width: 15px
+          height: 1px
+          background: #fff
+          display: inline-block
+          position: relative
+          bottom: 5px
+        &:after
+          left: 10px
+        &:before
+          right: 10px
+      &:last-child
+        font-size: 16px
+        font-weight: bold
+        letter-spacing: 0.62px
+        line-height: 21px
+        color: #FFCF20
+  table tbody
+    width: 100%
+    td
+      width: 26%
+      padding: 12px 0
+      border: none
+      p
+        margin-bottom: 0
+
+.claim-winning .table-scroll,
+#block-latest-results .table-scroll
+  max-height: 310px
+.claim-winning
+  #mCSB_2_dragger_horizontal
+    left: 0
+
+#mCSB_2_dragger_horizontal  
+
+.box-scroll
+  height: 500px
+.mCSB_container_wrapper
+  position: relative !important
+.table-scroll-all
+  height: auto
+  max-height: 400px
+
+.box-scroll .mCSB_container
+  padding-right: 30px
+.mCSB_vertical_horizontal>.mCSB_scrollTools.mCSB_scrollTools_horizontal
+  background-color: #53527A
+#block-latest-results
+  .table-no-scroll
+    height: auto !important
+  .table-title
+    margin-top: 10px
+    width: 100%
+    thead tr th
+      width: 14%
+      border: none
+      font-size: 14px
+      padding: 10px 0
+      span
+        font-weight: normal
+.summaryOfTicket
+  display: block !important
+  text-align: left !important
+.mCS-3d-dark.mCSB_scrollTools .mCSB_draggerRail, .mCS-3d.mCSB_scrollTools .mCSB_draggerRail
+  background-color: #484566
+  box-shadow: none
+  -webkit-box-shadow: none
+  -moz-box-shadow: none
+
+.mCS-3d-dark.mCSB_scrollTools .mCSB_dragger
+  .mCSB_dragger_bar, &.mCSB_dragger_onDrag .mCSB_dragger_bar, &:active .mCSB_dragger_bar, &:hover .mCSB_dragger_bar
+    background-color: #FFCF20
+
+.mCS-3d.mCSB_scrollTools .mCSB_dragger
+  .mCSB_dragger_bar, &.mCSB_dragger_onDrag .mCSB_dragger_bar, &:active .mCSB_dragger_bar, &:hover .mCSB_dragger_bar
+    background-color: #FFCF20
+
+#block-latest-results
+  .type-awards
+    font-family: 'GROBOLD'
+    font-size: 18px
+    letter-spacing: 0.69px
+    line-height: 22px
+  .type-jackbot
+    color: #FFCF20
+    font-size: 18px
+  .result-number
+    .item
+      span
+        &:not(.bonus-text)
+          display: inline-block
+          background-color: #EFEFF6
+          border-radius: 50%
+          width: 44px
+          height: 44px
+          margin: 0 auto
+          line-height: 48px
+          font-size: 22px
+          color: #4E4D79
+          font-weight: bold
+          letter-spacing: 0.92px
+          margin-right: 10px
+          cursor: pointer
+        &.bonus-text
+          height: 24px
+          width: 38px
+          color: #EABB10
+          font-size: 10px
+          font-weight: 500
+          line-height: 24px
+          top: -4px
+          position: relative
+          display: inline-block
+          cursor: pointer
+        &:active 
+          opacity: .4
+      p
+        &:first-child
+          color: #FFCF20
+          font-family: 'GROBOLD'
+          font-size: 24px
+          font-weight: bold
+          letter-spacing: 1.23px
+          line-height: 38px
+          margin-bottom: 35px
+        &:last-child
+          font-size: 16px
+          color: #fff
+          margin-top: 30px
+          font-weight: 300
+    .owl-theme .owl-nav [class*=owl-]
+      background: none
+      color: #FFCF20
+      font-size: 30px
+      font-weight: bold
+      letter-spacing: 0.69px
+      padding: 0
+      position: absolute
+      top: 0
+    .owl-carousel .owl-nav
+      .owl-prev
+        left: 55px
+      .owl-next
+        right: 55px
+
+#block-under-construction
+  .inner
+    background-color: #53527A
+    color: #fff
+    padding: 20px 15px
+    border-radius: 10px
+    position: relative
+    min-height: 500px
+    text-align: center
+    opacity: .95
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-items: center
+    .reload
+      margin-top: 30px
+      height: 50px
+      display: flex
+      justify-content: center
+      align-items: center
+      background-color: #FDC706
+      box-shadow: 0 0 25px 0 rgba(199,133,5,0.3)
+      width: 180px
+      text-transform: uppercase
+      border-radius: 35px
+      -moz-border-radius: 35px
+      -webkit-border-radius: 35px
+      color: #ffffff
+    img
+      margin-bottom: 35px
+    h3.title
+      color: #EABC22
+      font-family: 'GROBOLD', serif
+      font-size: 32px
+      margin-bottom: 15px
+    .description
+      color: #FFFFFF
+      font-size: 20px
+      font-weight: 200
+      margin-bottom: 5px
+      span
+        font-weight: 400
+
+      letter-spacing: 0.77px
+#block-how
+  margin-top: 400px
+  position: relative
+  .background-how
+    position: relative
+    z-index: 1
+    text-align: center
+    padding-top: 170px
+  .content-how
+    position: absolute
+    z-index: 1
+    width: 100%
+    top: 0
+    left: 0
+  .inner-content
+    display: flex
+    justify-content: space-between
+    .item
+      position: relative
+      p:first-child
+        font-size: 14px
+        letter-spacing: 0.54px
+        color: #ffffff40
+        margin-bottom: 3px
+      &:first-child
+        position: relative
+        left: 132px
+        bottom: 70px
+        p:last-child
+          max-width: 120px
+      &:nth-child(2), &:nth-child(3)
+        position: relative
+        top: 149px
+      &:nth-child(2)
+        left: 16px
+        p:last-child
+          max-width: 160px
+      &:nth-child(3) p:last-child
+        max-width: 160px
+      &:nth-child(4)
+        p:last-child
+          max-width: 160px
+        left: -40px
+
+#block-accreditation
+  width: 100%
+  margin: 250px auto 0 auto
+
+#block-how-to-play
+  margin-top: 220px
+#block-accreditation .content-accreditation .owl-item:after
+    content: ""
+    position: absolute
+    transform: scale(1.2)
+    overflow: hidden
+    background: url(../images/background_home.svg) top right no-repeat
+    height: 100%
+    overflow: hidden
+    background-size: contain
+    right: 0
+    top: 0
+    width: 100%
+#block-accreditation
+  .content-accreditation
+    margin: 50px 0 30px 0
+    .owl-stage
+      display: flex
+    .owl-item
+      background-color: #3B3A5E
+      color: #fff
+      padding: 20px 15px
+      border-radius: 10px
+      -webkit-border-radius: 10px
+      -moz-border-radius: 10px
+      min-height: 200px
+      position: relative
+      overflow: hidden
+      .item 
+        position: relative
+        z-index: 1
+    .level
+      font-size: 24px
+      letter-spacing: -0.06px
+      line-height: 31px
+      text-shadow: 0 0 10px 0 rgba(45, 45, 73, 0.2)
+      text-transform: uppercase
+      margin-left: 55px
+      position: relative
+      z-index: 10
+    p
+      font-size: 18px
+      letter-spacing: 0.69px
+      line-height: 23px
+      margin-top: 15px
+      position: relative
+      z-index: 10
+  .icon
+    margin-right: 5px
+    display: inline-block
+    position: absolute
+    z-index: 10
+    left: 15px
+    top: -4px
+
+.icon-1
+  width: 31px
+  height: 30px
+  display: inline-block
+  position: relative
+  top: -5px
+
+.icon-2
+  width: 31px
+  height: 36px
+  display: inline-block
+
+.icon-3
+  width: 34px
+  height: 43px
+  top: 8px
+  display: inline-block
+
+#block-accreditation .title-accreditation
+  font-weight: bold
+  margin-top: 30px
+  text-transform: uppercase !important
+
+table.table
+  &.home-decorate
+    .d-flex
+      th, td
+        display: block;
+
+table.table
+  .d-flex
+    p
+      margin-bottom: 0px !important
+    th, td
+      font-size: 14px
+      font-weight: 300
+      padding-left: 0
+      align-items: center
+
+.tab-gaming
+  border-bottom: none
+  display: flex
+  background-color: #3B3A5E
+  color: #fff
+  text-transform: uppercase
+  font-size: 20px
+  font-weight: bold
+  letter-spacing: -0.05px
+  text-align: center
+  /*padding: 15px 0
+  border-radius: 10px 10px 0 0
+  -webkit-border-radius: 10px 10px 0 0
+  -moz-border-radius: 10px 10px 0 0
+  margin-top: 30px
+  a
+    color: rgba(255, 255, 255, 0.4)
+  li
+    width: auto
+
+.nav-tabs .nav-link
+  border: none
+
+.nav-tabs .nav-item 
+  margin-bottom: 0 !important
+
+.show-menu
+  display: block !important
+  position: fixed
+  z-index: 9999
+
+.tab-gaming.nav-tabs
+  .nav-item
+    .nav-link
+      padding: 15px 30px
+      text-align: center
+      height: 70px
+      display: flex
+      align-items: center
+      font-weight: 200
+      justify-content: center
+    &.show .nav-link
+      border: none
+      background: none
+      color: rgba(255, 255, 255, 0.4)
+    .nav-link.active.show
+      border-bottom: 3px solid #FFCF20
+      position: relative
+      z-index: 7
+  .nav-link.active
+    color: #fff !important
+    border: none
+    background: none
+.tab-content-gaming
+  color: #fff
+  padding: 20px 20px 0 20px
+  min-height: 521px
+  background-color: rgba(83, 82, 122, 0.9)
+  border-radius: 0 0 0 10px
+  -webkit-border-radius: 0 0 0 10px
+  -moz-border-radius: 0 0 0 10px
+
+#popup-notice .modal-dialog
+  min-width: 630px
+  .message
+    margin-bottom: 2rem
+  div.buttons.two-buttons
+    text-align: right
+    a.button
+      min-width: 200px
+      &:last-child
+        margin-left: 10px
+
+.tab-content-gaming a.link-play
+  color: #fff
+  font-size: 16px
+  letter-spacing: 0.62px
+  text-decoration: underline
+  display: inline-block
+  margin-bottom: 30px
+  &:hover
+    color: #FFCF20
+
+.tickets-number .dropdown
+  display: inline-block
+  margin-left: 20px
+  button
+    border-radius: 20px
+    -webkit-border-radius: 20px
+    -moz-border-radius: 20px
+    background-color: #46456E
+    border: none
+    height: 40px
+    width: 109px
+    text-align: left
+    padding-left: 30px
+    font-weight: bold
+    color: #ffffff !important
+.claim-winning-total .row
+  display: flex
+  justify-content: flex-end
+  > div
+    margin-left: 100px
+    display: flex
+    > div 
+      margin-left: 100px
+
+  margin-top: 50px
+  margin-bottom: 30px
+  .number
+    color: rgb(255, 207, 32)
+  .claim_winning
+    text-align: right
+  .total_number
+    span
+      font-weight: 100
+    span:first-child
+      font-weight: 500
+
+#block-notification
+  margin-top: 80px
+  .inner .header-notification
+    padding: 30px
+    color: #FFFFFF
+    font-family: 'GROBOLD'
+    font-size: 43px
+    letter-spacing: 0.9px
+    line-height: 52px
+    text-shadow: 0 0 10px 0 rgba(73, 73, 114, 0.2)
+  .mCSB_container_wrapper
+    margin: 0
+    > .mCSB_container
+      padding: 0
+  .inner
+    ul.notification-list
+      .item
+        border-bottom: 1px solid rgba(255, 255, 255, 0.14)
+        padding: 20px 25px
+        position: relative
+        &:hover
+          background: #5B5A86
+      p
+        margin: 0
+      .item
+        .title
+          color: #FFFFFF
+          font-size: 18px
+          font-weight: bold
+          line-height: 23px
+        .message
+          color: #FFFFFF
+          font-size: 16px
+          line-height: 21px
+        .date
+          color: #FFFFFF
+          font-size: 14px
+          line-height: 18px
+    border-radius: 10px
+    background: #53527A
+  .list-scroll
+    height: 300px
+
+.tickets-number
+  .dropdown-toggle::after
+    content: '\f107'
+    font-family: 'FontAwesome'
+    border: none
+    background-color: #FFCF20
+    border-radius: 20px
+    -webkit-border-radius: 20px
+    -moz-border-radius: 20px
+    display: inline-block
+    width: 40px
+    height: 40px
+    position: absolute
+    right: -4px
+    top: 0
+    line-height: 40px
+    padding-left: 14px
+  .dropdown-menu
+    padding: 0
+    a
+      border-bottom: 1px solid #CED0DA
+      font-size: 18px
+      text-align: center
+      color: #373A3C
+      &:last-child
+        border-bottom: 0
+
+.link-setting
+  font-size: 14px
+  font-weight: bold
+  line-height: 18px
+  color: #fff
+  border: 1px solid #fff
+  border-radius: 50px
+  -webkit-border-radius: 50px
+  -moz-border-radius: 50px
+  padding: 10px 20px
+  display: inline-block
+  margin: 50px 19px 0 0
+  &:hover
+    background: #FFCF20
+    color: #fff
+    text-decoration: none
+    border-color: #FFCF20
+  i
+    font-size: 18px
+    margin-right: 10px
+
+.link-right
+  float: right
+.consecutive-group
+  .text-left
+    p
+      text-align: left !important
+.listFv
+  .link-add-ticket
+    margin: 15px 0 !important      
+.link-add-ticket
+  text-align: center
+  margin: 50px 0
+  a
+    color: #fff
+    border: 2px solid #FFFFFF
+    border-radius: 50px
+    -webkit-border-radius: 50px
+    -moz-border-radius: 50px
+    padding: 13px 40px
+    display: inline-block
+    i
+      font-size: 14px
+      margin-right: 5px
+    &:hover
+      background: #FFCF20
+      color: #fff
+      text-decoration: none
+      border-color: #FFCF20
+    &.disabled
+      color: rgba(255,255,255,0.5)
+      pointer-events: none;
+      border: 2px solid;
+
+#game-play .right
+  .text-payment
+    position: relative
+    font-size: 24px
+    font-weight: bold
+    line-height: 31px
+    margin-bottom: 15px
+    i
+      position: absolute
+      right: 0
+      cursor: pointer
+  .number-set
+    background-color: #52527A
+    border: 1px solid #5B5887
+    border-radius: 6px
+    -webkit-border-radius: 6px
+    -moz-border-radius: 6px
+    padding: 8px
+    .text-left
+      width: 65%
+      float: left
+    .text-right
+      width: 35%
+      float: right
+      p
+        margin-bottom: 0
+        font-size: 16px
+        line-height: 20px
+        color: #E2E1F7
+    .text-left p
+      margin-bottom: 0
+      font-size: 16px
+      line-height: 20px
+      color: #E2E1F7
+    .text-right p
+      &:first-child
+        color: #FFCF20
+        text-align: right
+        font-weight: bold
+      &:last-child
+        font-size: 14px
+  .tickets
+    .type-ticket
+      background-color: #3B3A5E
+      border-radius: 6px 6px 0 0
+      -webkit-border-radius: 6px 6px 0 0
+      -moz-border-radius: 6px 6px 0 0
+      position: relative
+      padding: 12px 20px
+      color: #FFCF20
+      font-size: 16px
+      font-weight: bold
+      line-height: 21px
+      margin-bottom: 0
+      a
+        position: absolute
+        right: 15px
+        color: #fff
+        &:hover
+          text-decoration: none
+    .detail-type-ticket
+      border: 1px solid #5B5887
+      border-radius: 0 0 6px 6px
+      -webkit-border-radius: 0 0 6px 6px
+      -moz-border-radius: 0 0 6px 6px
+      background-color: #52527A
+      padding: 20px 8px
+      font-size: 15px
+      margin-bottom: 10px
+
+.flex-align-baseline
+  align-items: baseline !important
+
+#game-play
+  .game-play-header
+    .group
+      display: flex
+      justify-content: space-between
+  .right
+    .tickets
+      .detail-type-ticket .group
+        margin-bottom: 20px
+        margin-bottom: 20px
+        display: flex
+        flex-direction: row
+        align-items: center
+        &:last-child
+          margin-bottom: 0
+      .text-left
+        width: 45%
+        float: left
+        margin-bottom: 0
+        p
+          margin-bottom: 0
+      .text-right p
+        margin-bottom: 0
+      .detail-type-ticket
+        .text-left i
+          font-size: 20px
+          position: relative
+          top: 3px
+          padding-left: 5px
+        .text-right
+          width: 55%
+          float: right
+          font-weight: bold
+          margin-bottom: 0
+    .text-usd
+      font-size: 14px
+      line-height: 18px
+      font-weight: normal
+      margin-bottom: 0
+    .grand-total
+      background-color: #3B3A5E
+      border-radius: 6px
+      -webkit-border-radius: 6px
+      -moz-border-radius: 6px
+      margin-top: 10px
+      padding: 20px 8px
+      margin-bottom: 28px
+  .coming-soon
+    opacity: .95
+    .text
+      font-family: 'GROBOLD'
+      font-size: 36px
+      color: #EABC22
+      top: -50px
+.outer .comming-soon img
+  width: 100%
+.text-total-eth, .text-total-usd
+  color: #FFCF20
+  line-height: 28px
+  margin-bottom: 0
+
+.text-total-eth
+  font-size: 22px
+  font-weight: bold
+
+.text-total-usd
+  font-size: 18px
+  line-height: 23px
+
+.link-confirm
+  text-align: center
+  margin: 30px 0 0 0
+  a
+    border-radius: 50px
+    -webkit-border-radius: 50px
+    -moz-border-radius: 50px
+    color: #fff
+    padding: 15px 40px
+    background-color: #FFCF20
+    font-size: 14px
+    font-weight: bold
+    letter-spacing: 0.54px
+    line-height: 18px
+    &:hover
+      text-decoration: none
+
+.sub-pages
+  background-size: cover
+
+.kyc-home
+  background-position-y: 15% !important
+  height: auto
+  min-height: 100% !important
+
+.faq-page
+  background-position-y: 35% !important
+  height: auto
+  min-height: 100% !important
+
+.page-contact
+  background-position-y: 10% !important
+  height: auto
+  min-height: 100% !important
+
+.sub-pages
+  .logo
+    text-align: center
+    margin-bottom: 80px
+  #footer .pull-top ul
+    justify-content: flex-end
+    li
+      margin-right: 30px
+      &:last-child
+        margin-right: 0
+
+.block-game-play .table-title thead tr th, .sub-pages .table-title thead tr th
+  font-size: 14px
+  color: #ffffffa6 !important
+  font-weight: 300
+
+.block-game-play .table-title thead tr, .sub-pages .table-title thead tr, .block-game-play tbody tr, .sub-pages tbody tr
+  border-bottom: 1px solid #ffffff31
+.news
+  margin: 0 auto
+  .medium-box
+    width: 100% !important
+.wrapper-content
+  .box
+    background-color: #53527A
+    color: #fff
+    border-radius: 10px
+    -webkit-border-radius: 10px
+    -moz-border-radius: 10px
+    padding: 30px
+    margin-bottom: 120px
+    .item-box
+      min-height: 420px
+  .medium-box
+    width: 100%
+    margin: 35px auto 0 auto
+  .small-box
+    width: 650px
+    margin: 0 auto 50px auto
+    background-color: #53527a
+    border-radius: 10px
+    -webkit-border-radius: 10px
+    -moz-border-radius: 10px
+    padding: 30px 25px
+    font-weight: 300
+
+.sub-pages .small-box-page
+  width: 485px
+  margin: 0 auto 200px auto
+  position: relative
+  .text-normal
+    font-size: 18px
+    letter-spacing: 0.69px
+    line-height: 22px
+
+.text-number-selected
+  font-weight: 400 !important
+  span
+    color: #FFCF20
+    font-weight: bold
+    letter-spacing: 0.69px
+    line-height: 40px
+    display: inline-block
+    width: 40px
+    height: 40px
+    background-color: #46456E
+    border-radius: 50%
+    -webkit-border-radius: 50%
+    -moz-border-radius: 50%
+    text-align: center
+    margin-right: 10px
+
+.text-set-of-numbers
+  font-weight: 400 !important
+  span
+    font-weight: bold
+    display: inline-block
+    text-align: right
+    margin-right: 10px
+
+.success
+  font-family: 'GROBOLD'
+  text-align: center
+  color: #FFCF20
+  font-size: 21px
+  letter-spacing: 0.44px
+  line-height: 25px
+  text-shadow: 0 0 10px 0 rgba(73, 73, 114, 0.2)
+
+.sub-pages .small-box-page
+  .text-normal
+    p
+      margin-bottom: 20px
+    a
+      font-size: 14px
+      letter-spacing: 0.54px
+      line-height: 18px
+      color: #fff
+      text-decoration: underline
+      display: inline-block
+      margin: 10px 0 20px 0
+  h5
+    font-family: 'GROBOLD'
+    font-size: 48px
+    letter-spacing: 1px
+    line-height: 58px
+    text-shadow: 0 0 10px 0 rgba(73, 73, 114, 0.2)
+    margin-bottom: 50px
+.news .box 
+  h2
+    font-size: 24px
+  p
+    font-size: 18px
+  .time_news
+    font-size: 16px
+    letter-spacing: 0.62px
+    opacity: 0.6
+.small-box h5
+  font-family: 'GROBOLD'
+  font-size: 48px
+  letter-spacing: 1px
+  line-height: 58px
+  text-shadow: 0 0 10px 0 rgba(73, 73, 114, 0.2)
+  margin-bottom: 50px
+
+.note-case-error
+  text-align: center
+  color: #C2C1DC
+  font-size: 16px
+  letter-spacing: 0.62px
+  line-height: 21px
+  padding: 20px 0 50px 0;
+.sub-pages .small-box-page .note-case-error
+  p
+    margin-bottom: 5px
+  a
+    font-size: 16px
+    color: #C2C1DC
+    letter-spacing: 0.62px
+
+.note-case-error p span
+  &:after, &:before
+    content: ''
+    width: 33px
+    height: 2px
+    background: #7A79A0
+    display: inline-block
+    position: relative
+    bottom: 3px
+  &:after
+    margin-left: 10px
+  &:before
+    margin-right: 10px
+
+.wrapper-content
+  .small-box .block-level
+    font-size: 14px
+    letter-spacing: 0.54px
+    line-height: 21px
+    color: #ffffff82
+    border-bottom: 1px solid #ffffff36
+    padding-bottom: 20px
+    margin-bottom: 40px
+    &:last-child
+      border-bottom: none
+      margin-bottom: 0
+    .group
+      margin-bottom: 20px
+      .row > div
+        padding-right: 0
+        &:last-child
+          padding-right: 15px
+      a
+        display: inline-block
+        background-color: #FFCF20
+        box-shadow: 0 0 25px 0 rgba(199, 133, 5, 0.3)
+        -webkit-box-shadow: 0 0 25px 0 rgba(199, 133, 5, 0.3)
+        -moz-box-shadow: 0 0 25px 0 rgba(199, 133, 5, 0.3)
+        color: #fff
+        font-weight: bold
+        text-transform: uppercase
+        letter-spacing: 0.54px
+        margin-top: 20px
+        padding: 16px 30px
+        border-radius: 45px
+      .dropdown button
+        border: none
+        border-radius: 25px
+        -webkit-border-radius: 25px
+        -moz-border-radius: 25px
+        height: 50px
+        width: 100%
+        padding: 0 20px
+        background: #ffffff10
+        color: #ffffff60
+        cursor: pointer
+        text-align: left
+  .dropdown-toggle::after
+    float: right
+    margin-top: 10px
+    border-top: .4em solid
+    border-right: .4em solid transparent
+    border-bottom: 0
+    border-left: .4em solid transparent
+  .small-box .block-level
+    .group
+      .full .dropdown-menu
+        width: 100%
+      .dropdown-menu
+        background: #53527a
+        color: #ffffff60
+        font-size: 14px
+        padding: 0
+        border: 1px solid #ffffff10
+        a
+          background: none
+          box-shadow: none
+          -webkit-box-shadow: none
+          -moz-box-shadow: none
+          padding: 8px 20px
+          font-size: 14px
+          font-weight: normal
+          margin-top: 0
+          text-transform: capitalize
+          &:hover
+            color: #FFCF20
+      a:hover
+        text-decoration: none
+    .text-level
+      color: #fff
+      font-size: 24px
+      letter-spacing: -0.06px
+      line-height: 31px
+      text-shadow: 0 0 10px 0 rgba(45, 45, 73, 0.2)
+      margin-bottom: 0
+      span:last-child
+        position: relative
+        bottom: 10px
+        margin-left: 8px
+      .text-rookie
+        bottom: 3px !important
+    label
+      display: block
+      font-size: 14px
+      letter-spacing: 0.54px
+      line-height: 18px
+      color: #ffffff
+      margin-bottom: 15px
+      text-transform: uppercase
+      span
+        font-size: 14px
+        letter-spacing: 0.54px
+        text-transform: capitalize
+    .status-level
+      border-radius: 25px
+      -webkit-border-radius: 25px
+      -moz-border-radius: 25px
+      border: 2px solid #ffffff2e
+      text-transform: uppercase
+      font-weight: bold
+      letter-spacing: 0.54px
+      text-align: center
+      padding: 13px 0
+      color: #fff
+    .not-verify
+      color: #ffffff50
+    .name-img
+      color: #FFFFFF
+      font-size: 14px
+      font-weight: bold
+      letter-spacing: 0.54px
+      line-height: 18px
+      padding: 15px 50px
+      border: 2px solid #FFFFFF
+      border-radius: 25px
+      -webkit-border-radius: 25px
+      -moz-border-radius: 25px
+      display: inline-block
+    .text-name-info
+      color: #FFCF20
+      font-size: 24px
+      letter-spacing: -0.06px
+      line-height: 31px
+      text-shadow: 0 0 10px 0 rgba(45, 45, 73, 0.2)
+    input
+      &::-webkit-input-placeholder
+        /* Chrome/Opera/Safari
+        color: #ffffff60
+      &::-moz-placeholder
+        /* Firefox 19+
+        color: #ffffff60
+    .form-letter input
+      &:-ms-input-placeholder
+        /* IE 10+
+        color: #ffffff60
+      &:-moz-placeholder
+        /* Firefox 18-
+        color: #ffffff60
+    input, select
+      border-radius: 25px
+      -webkit-border-radius: 25px
+      -moz-border-radius: 25px
+      height: 50px
+      width: 100%
+      padding: 0 20px
+      border: none
+      background: #ffffff17
+      color: #ffffff60
+    input:focus, select:focus
+      outline: 0
+
+.title-box
+  font-family: 'GROBOLD'
+  font-size: 43px
+  letter-spacing: 0.9px
+  line-height: 52px
+  text-shadow: 0 0 10px 0 rgba(73, 73, 114, 0.2)
+  margin-bottom: 30px
+
+.sub-title-box
+  font-size: 18px
+  letter-spacing: 0.69px
+  line-height: 23px
+  margin-bottom: 50px
+
+.box-no-padding
+  padding: 0 !important
+
+.wrapper-content
+  .box
+    h3
+      font-size: 16px
+      line-height: 14px
+      text-shadow: 0 0 10px 0 rgba(73, 73, 114, 0.2)
+      letter-spacing: 1.33px
+      margin: 20px 0 20px 0
+      line-height: 27px
+      position: relative
+      top: 3px
+    ul
+      list-style: none
+      padding-left: 0
+      margin-top: 50px
+  ul.list-download
+    width: 70%
+    margin: 50px auto 30px auto
+  .box ul
+    li
+      .inner
+        h6
+          font-size: 18px
+          font-weight: bold
+          letter-spacing: 0.69px
+          line-height: 23px
+          text-align: center
+        background-color: #FFCF20
+        border-radius: 10px
+        -webkit-border-radius: 10px
+        -moz-border-radius: 10px
+        padding: 20px 15px
+        color: #3D392E
+        font-size: 18px
+        letter-spacing: 0.69px
+        line-height: 23px
+        min-height: 453px
+        img
+          margin: 0 auto
+          display: flex
+          margin-bottom: 10px
+      ul
+        margin-top: 0
+    &.list-note li
+      position: relative
+      margin-left: 25px
+      &:before
+        content: ''
+        width: 8px
+        height: 8px
+        border-radius: 50%
+        -webkit-border-radius: 50%
+        -moz-border-radius: 50%
+        background-color: #FFCF20
+        display: inline-block
+        position: absolute
+        top: 8px
+        left: -25px
+    li .text-required
+      font-size: 18px
+      letter-spacing: 0.69px
+      font-weight: bold
+      margin-bottom: 8px
+  .btn-back
+    display: block
+    margin: 30px 0
+    font-size: 24px
+    color: #8180A9
+    letter-spacing: 0.92px
+    font-weight: bold
+    line-height: 31px
+    &:hover
+      text-decoration: none
+      color: #fff
+    i
+      padding-right: 15px
+
+.block-game-play
+  background-position-y: 77% !important
+  height: auto
+  min-height: 100% !important
+  .box
+    border-radius: 10px
+    -webkit-border-radius: 10px
+    -moz-border-radius: 10px
+    background-color: #53527A
+    padding: 20px 30px
+    margin-bottom: 30px
+  .outer
+    padding-top: 150px
+  .box
+    #block-latest-results
+      margin-top: 0
+    .function
+      margin-bottom: 30px
+      a
+        color: #FFFFFF
+        font-size: 14px
+        letter-spacing: 0.54px
+        line-height: 18px
+        margin-right: 30px
+        &:hover
+          text-decoration: none
+          color: #FFCF20
+        span
+          position: relative
+          bottom: 7px
+          margin-left: 8px
+        &.link-edit:before
+          content: ''
+          width: 28px
+          height: 28px
+          display: inline-block
+        &.link-logout:before
+          content: ''
+          width: 30px
+          height: 25px
+          display: inline-block
+        &:last-child
+          margin-right: 0
+  .group
+    label
+      color: #9594AA
+      font-size: 14px
+      letter-spacing: 0.54px
+      line-height: 18px
+      margin-bottom: 8px
+      display: block
+    .name
+      font-family: 'GROBOLD'
+      font-size: 24px
+      letter-spacing: 0.74px
+      line-height: 29px
+      text-shadow: 0 0 10px 0 rgba(73, 73, 114, 0.2)
+  .text
+    color: #FFFFFF
+    font-size: 18px
+    letter-spacing: 0.69px
+    line-height: 23px
+    display: inline-block
+  .group
+    a
+      background-color: #FFCF20
+      box-shadow: 0 0 25px 0 rgba(199, 133, 5, 0.3)
+      -webkit-box-shadow: 0 0 25px 0 rgba(199, 133, 5, 0.3)
+      -moz-box-shadow: 0 0 25px 0 rgba(199, 133, 5, 0.3)
+      color: #fff
+      border-radius: 50px
+      -webkit-border-radius: 50px
+      -moz-border-radius: 50px
+      font-size: 14px
+      font-weight: bold
+      letter-spacing: 0.54px
+      line-height: 18px
+      padding: 18px 30px
+      &:hover
+        text-decoration: none
+    .level
+      margin-top: 15px
+      .text-level
+        text-transform: uppercase
+        color: #ffffff
+        font-size: 24px
+        letter-spacing: -0.06px
+        line-height: 31px
+        text-shadow: 0 0 10px 0 rgba(45, 45, 73, 0.2)
+        font-weight: 300
+        position: relative
+        bottom: 10px
+  .pull-right
+    position: relative
+    padding: 40px 0
+  .outer .pull-right:before
+    content: ''
+    display: inline-block
+    position: absolute
+    width: 100%
+    height: 100%
+    top: 40px
+    right: -177px
+  .pull-right
+    .text-round
+      font-size: 14px
+      letter-spacing: 0.54px
+      line-height: 18px
+    .text-type
+      font-family: 'GROBOLD'
+      font-size: 24px
+      letter-spacing: 0.5px
+      line-height: 29px
+      text-shadow: 0 0 10px 0 rgba(73, 73, 114, 0.2)
+      margin: 30px 0 20px 0
+    .text-awards
+      font-size: 36px
+      letter-spacing: -0.11px
+      line-height: 31px
+      text-shadow: 0 0 10px 0 rgba(45, 45, 73, 0.2)
+      font-weight: bold
+      word-wrap: break-word
+      span
+        font-size: 24px
+        font-weight: 100
+    .text-usd
+      font-size: 22px
+      letter-spacing: -0.06px
+      color: #fff
+      opacity: 0.6
+      line-height: 31px
+      text-shadow: 0 0 10px 0 rgba(45, 45, 73, 0.2)
+    .text-status
+      font-size: 14px
+      letter-spacing: 0.54px
+      line-height: 18px
+      .status
+        color: #FFCA00
+        padding: 3px 10px
+        background: transparent;
+        font-weight: bold;
+    .link
+      margin-top: 20px
+      a
+        font-size: 14px
+        color: #FFFFFF6e
+        letter-spacing: 0.54px
+        line-height: 18px
+        text-decoration: underline
+        margin-right: 20px
+        &:last-child
+          margin-right: 0
+        &:hover
+          color: #fff
+
+.text-box
+  font-family: 'GROBOLD'
+  font-size: 36px
+  letter-spacing: 0.18px
+  line-height: 43px
+  text-shadow: 0 0 10px 0 rgba(87, 89, 125, 0.2)
+  margin: 10px 0 10px 0
+
+.block-game-play #block-latest-results .table-title thead tr
+  display: flex
+  justify-content: left
+  th
+    width: 29%
+    padding: 10px 3px
+
+.form-field-file
+  &.behalf
+    width: 44%
+  label
+    position: relative
+    display: inline-block
+    width: auto
+    text-align: center
+    padding: 15px
+    border-radius: 25px
+    -webkit-border-radius: 25px
+    -moz-border-radius: 25px
+    font-size: 14px
+    color: #fff
+    text-transform: uppercase
+    -webkit-appearance: none
+    -moz-appearance: none
+    appearance: none
+    cursor: pointer
+    transition: background 0.25s ease-in-out
+    letter-spacing: 0.54px
+    border: 2px solid #FFFFFF
+    font-weight: bold
+    overflow: hidden
+    text-overflow: ellipsis
+    white-space: nowrap
+  input[type="file"]
+    position: absolute
+    z-index: -1
+    width: 0.1px
+    height: 0.1px
+    opacity: 0
+    overflow: hidden
+  &.no-active label
+    border: 2px solid #ffffff2e
+    color: #ffffff2e !important
+
+.icon-modal
+  margin: 20px 0
+
+.section-bottom
+  margin-top: 30px
+  p
+    margin-bottom: 0
+  .time
+    p
+      &:first-child
+        font-size: 14px
+        letter-spacing: 0.54px
+      &:last-child
+        font-size: 24px
+        letter-spacing: 0.06px
+        font-weight: bold
+        text-shadow: 0 0 10px 0 rgba(45, 45, 73, 0.2)
+        margin-top: 5px
+
+#limit .group button, #self .group button
+  width: 100%
+  border-radius: 25px
+  -webkit-border-radius: 25px
+  -moz-border-radius: 25px
+  height: 50px
+  background-color: #FFFFFF10
+  border: none
+  text-align: left
+  color: #FFCF20
+  padding: 0 20px
+
+.modal-box .group, .small-box-page .group
+  margin-bottom: 20px
+  position: relative
+
+.modal-box .group
+  .dropdown-menu
+    position: absolute !important
+    width: 100%
+    background-color: #35355B !important
+    padding: 0
+    a
+      color: #FFCF20 !important
+      font-weight: bold
+      letter-spacing: 0.54px
+      border-bottom: 1px solid #ffffff10
+      padding: 10px 20px
+      &:hover
+        background: none
+      &:last-child
+        border-bottom: none
+  .dropdown-toggle::after
+    content: ''
+    margin-top: 10px
+    float: right
+  i
+    position: absolute
+    right: 18px
+    bottom: 10px
+    color: #ffffff60
+    font-size: 29px
+
+.small-box-page .group i
+  position: absolute
+  right: 18px
+  bottom: 10px
+  color: #ffffff60
+  font-size: 29px
+
+.modal-medium-box
+  .modal-dialog
+    max-width: 700px
+  .modal-header h5
+    font-size: 31px !important
+    margin-bottom: 0 !important
+    line-height: 38px !important
+.modal-favorite
+  .modal-dialog
+    max-width: 948px;
+.modal-box
+  .modal-content
+    background-color: #53527A
+    border-radius: 10px
+    -webkit-border-radius: 10px
+    -moz-border-radius: 10px
+    box-shadow: none
+    -webkit-box-shadow: none
+    -moz-box-shadow: none
+    border: none
+  .modal-header
+    border-bottom: 0
+    position: relative
+    h5
+      font-family: 'GROBOLD'
+      font-size: 35px
+      letter-spacing: 1px
+      /*line-height: 58px
+      text-shadow: 0 0 10px 0 rgba(73, 73, 114, 0.2)
+    /*margin: 20px
+    i
+      font-size: 20px
+      color: #fff
+      opacity: 1
+  .close
+    opacity: 1 !important
+
+.modal-medium-box
+  .table-title
+    width: 100%
+    margin-bottom: 10px
+    th
+      font-size: 14px
+      letter-spacing: 0.54px
+      line-height: 18px
+      color: rgba(255, 255, 255, 0.4)
+      min-width: 150px
+  .table-modal td
+    //min-width: 150px
+    font-size: 16px
+    letter-spacing: 0.62px
+    padding: 8px 0
+    border-color: rgba(255, 255, 255, 0.3)
+    p
+      margin-bottom: 0
+    .text-usd
+      font-size: 12px
+      letter-spacing: 0.62px
+  .total
+    display: flex
+    justify-content: flex-end
+    margin-right: 85px
+    .price p
+      color: #FFCF20
+      line-height: 28px
+      margin-bottom: 0
+      font-size: 22px
+      font-weight: bold
+    .text-total
+      margin-right: 100px
+      font-size: 18px
+      font-weight: bold
+      line-height: 23px
+    .price p:last-child
+      font-size: 15px
+      font-weight: normal
+
+.link-register
+  position: absolute
+  right: 30px
+  top: 48px
+  color: #fff
+  background-color: #8C8BAA
+  border-radius: 50px
+  padding: 15px 30px
+  &:hover
+    text-decoration: none
+    color: #fff
+    background-color: #FFCF20
+
+.link-back-login
+  top: 40px
+
+.header
+  position: relative
+  .link-register
+    top: 0
+    right: 0
+  h5
+    font-family: 'GROBOLD'
+    font-size: 48px
+    letter-spacing: 1px
+    line-height: 58px
+    text-shadow: 0 0 10px 0 rgba(73, 73, 114, 0.2)
+    margin: 30px 0
+
+.modal-box
+  .close
+    color: #fff
+    font-size: 30px
+  .modal-body
+    /*padding: 20px 30px 40px 30px
+    label
+      font-size: 14px
+      letter-spacing: 0.54px
+      line-height: 18px
+      display: block
+      margin-bottom: 15px
+
+.small-box-page label
+  font-size: 14px
+  letter-spacing: 0.54px
+  line-height: 18px
+  display: block
+  margin-bottom: 15px
+
+.modal-box .modal-body input, .small-box-page input
+  border-radius: 25px
+  -webkit-border-radius: 25px
+  -moz-border-radius: 25px
+  background-color: #FFFFFF10
+  color: #ffffff60
+  height: 50px
+  padding: 0 20px
+  width: 100%
+  border: none
+  letter-spacing: 0.54px
+  font-size: 14px
+
+.modal-box .modal-body input:focus, .small-box-page input:focus
+  outline: 0
+  font-size: 14px
+
+.modal-box .modal-body input::-webkit-input-placeholder, .small-box-page input::-webkit-input-placeholder
+  /* Chrome/Opera/Safari
+  color: #ffffff60
+  font-size: 14px
+
+.modal-box .modal-body input::-moz-placeholder, .small-box-page input::-moz-placeholder
+  /* Firefox 19+
+  color: #ffffff60
+  font-size: 14px
+
+.modal-box .modal-body .form-letter input:-ms-input-placeholder, .small-box-page input:-ms-input-placeholder
+  /* IE 10+
+  color: #ffffff60
+  font-size: 14px
+
+.modal-box .modal-body input:-moz-placeholder, .small-box-page input:-moz-placeholder
+  /* Firefox 18-
+  color: #ffffff60
+  font-size: 14px
+
+.large-modal .modal-dialog
+  max-width: 630px
+
+.button-back-profile
+  background-color: #FDC706
+  box-shadow: 0 0 25px 0 rgba(199, 133, 5, 0.3)
+  -webkit-box-shadow: 0 0 25px 0 rgba(199, 133, 5, 0.3)
+  -moz-box-shadow: 0 0 25px 0 rgba(199, 133, 5, 0.3)
+  padding: 15px 20px
+  font-size: 14px
+  color: #fff
+  text-transform: uppercase
+  margin-top: 50px
+  margin-left: 10px;
+  font-weight: bold
+  float: right
+  min-width: 130px;
+  text-align: center;
+  &:hover
+    text-decoration: none
+    color: #fff
+.button-save 
+  display: flex
+  justify-content: center
+  margin: 0 auto 30px auto !important
+  width: 80%
+.modal.fade 
+  .modal-dialog  
+    animation: animation .3s ease !important
+    margin-top: 150px
+@keyframes animation
+  0% 
+    transform: scale(0)
+  50% 
+    transform: scale(1.1)
+  100%
+    transform: scale(1)    
+
+.button-save, .button-open
+  background-color: #FFCF20
+  color: #fff
+  border-radius: 50px
+  -webkit-border-radius: 50px
+  -moz-border-radius: 50px
+  padding: 15px 20px
+  font-size: 14px
+  font-weight: 300
+  letter-spacing: 0.77px
+  text-align: center
+  margin: 0 30px 20px 30px
+/*display: block
+
+.button--yellow
+  background-color: #FFCF20 !important
+
+.button-save:hover
+  text-decoration: none
+  color: #fff
+
+.button-open
+  &:hover
+    text-decoration: none
+    color: #fff
+  /*width: 100%
+  margin: 0 0 20px 0 !important
+  text-transform: uppercase
+  display: inline-block
+  padding-left: 20px
+  padding-right: 20px
+
+.button-close
+  /*display: block
+  text-align: center
+  font-size: 20px
+  font-weight: bold
+  letter-spacing: 0.77px
+  line-height: 26px
+  color: #fff
+  margin-bottom: 0
+  padding-left: 20px
+  padding-right: 20px
+  &:hover
+    text-decoration: none
+    color: #fff
+
+#captcha
+  margin: 20px 0 40px 0
+
+.link-forgot a
+  font-size: 14px
+  letter-spacing: 0.54px
+  color: #ffffff90
+  text-decoration: underline
+  &:hover
+    color: #FFCF20
+
+.link-login
+  position: absolute
+  right: 0
+  top: -12px
+
+.text-condition
+  margin: 30px 0
+  ul
+    padding-left: 0
+    list-style: none
+    li
+      width: 43%
+      display: inline-block
+      margin-right: 20px
+      font-size: 12px
+      letter-spacing: 0.69px
+      line-height: 21px
+      &.active
+        color: #FFCF20
+        i
+          margin-left: 5px
+
+.link-sign-up
+  text-align: right
+  a
+    color: #fff
+    text-transform: uppercase
+    border-radius: 50px
+    -webkit-border-radius: 50px
+    -moz-border-radius: 50px
+    border: none
+    font-size: 14px
+    padding: 15px 30px
+    display: inline-block
+    margin-top: 20px
+    background-color: #FFCF20
+    font-weight: bold
+    letter-spacing: 0.54px
+    &:hover
+      text-decoration: none
+
+.link-change-pass
+  position: relative !important
+  width: 100%
+  margin-bottom: 20px
+  a
+    width: 100%
+    text-align: center
+
+.link-cancel
+  text-align: center
+  a
+    color: #8180A9
+    font-size: 14px
+    font-weight: bold
+    letter-spacing: 0.54px
+    text-align: center
+    text-decoration: underline
+
+.error
+  input
+    border: 1px solid #FF6262
+  span
+    font-size: 10px
+    letter-spacing: 0.38px
+    color: #FF6262
+    float: right
+
+.img-center
+  text-align: center
+  margin: 30px 0 10px 0
+
+.randao-manual
+  border-top: 1px solid #727298
+  text-align: center
+  padding-top: 30px
+  margin-top: 40px
+  p
+    margin-bottom: 5px
+
+.list-download
+  li
+    .list-inner
+      background-color: #46456E
+      border-radius: 6px
+      -webkit-border-radius: 6px
+      -moz-border-radius: 6px
+      padding: 30px 20px 20px 20px
+      text-align: center
+      font-size: 27px
+      line-height: 33px
+      min-height: 270px
+    .text-support
+      font-size: 18px
+      line-height: 33px
+      color: #8786B2
+    .list-inner p
+      margin-bottom: 5px
+  .button-download
+    padding: 0
+    width: 100%
+    text-align: left
+    .icon
+      display: inline-block
+      background-color: #fdc706c9
+      padding: 15px 28px
+      border-radius: 50px
+      margin-right: 30px
+      img
+        width: 30px
+        display: inline-block
+  .text-download
+    font-size: 16px
+
+#claim .text-content
+  margin: 40px 0
+
+/*Checkbox
+
+.checkbox
+  display: inline-block
+  -webkit-transform: translateZ(0)
+  transform: translateZ(0)
+  margin: 0
+  label
+    cursor: pointer
+    padding-left: 0
+  input[type=checkbox]
+    opacity: 0
+    position: absolute
+    margin: 0
+    z-index: -1
+    width: 0
+    height: 0
+    overflow: hidden
+    left: 0
+    pointer-events: none
+  .checkbox-material
+    vertical-align: middle
+    position: absolute
+    top: 3px
+    margin-right: 10px
+  .text-checkbox
+    position: relative
+    left: 30px
+    font-size: 12px
+    letter-spacing: 0.69px
+    word-break: break-word
+    margin-right: 20px
+    display: inline-block
+    a
+      color: #fff
+      text-decoration: underline
+      &:hover
+        color: #FFCF20
+  .checkbox-material
+    &:before
+      position: absolute
+      left: 8px
+      top: 2px
+      content: ""
+      background-color: rgba(0, 0, 0, 0.5)
+      height: 4px
+      width: 4px
+      border-radius: 100%
+      z-index: 1
+      opacity: 0
+      margin: 0
+    .check
+      position: relative
+      display: inline-block
+      width: 18px
+      height: 18px
+      border: 1px solid
+      border-radius: 2px
+      overflow: hidden
+      z-index: 1
+      &:before
+        position: absolute
+        content: ""
+        -webkit-transform: rotate(45deg)
+        transform: rotate(45deg)
+        display: block
+        margin-top: -4px
+        margin-left: 6px
+        width: 0
+        height: 0
+        box-shadow: 0 0 0 0, 0 0 0 0, 0 0 0 0, 0 0 0 0, 0 0 0 0, 0 0 0 0, 0 0 0 0 inset
+        -webkit-animation: checkbox-off 0.3s forwards ease-out
+        animation: checkbox-off 0.3s forwards ease-out
+  input[type=checkbox]
+    &:focus + .checkbox-material .check:after
+      opacity: 0.2
+    &:checked + .checkbox-material .check:before
+      box-shadow: 0 0 0 10px, 10px -10px 0 10px, 32px 0px 0 20px, 0px 32px 0 20px, -5px 5px 0 10px, 20px -12px 0 11px
+      -webkit-animation: checkbox-on 0.3s forwards ease-out
+      animation: checkbox-on 0.3s forwards ease-out
+    &:not(:checked) + .checkbox-material:before
+      -webkit-animation: rippleOff 700ms forwards ease-out
+      animation: rippleOff 700ms forwards ease-out
+    &:checked + .checkbox-material:before
+      -webkit-animation: rippleOn 700ms forwards ease-out
+      animation: rippleOn 700ms forwards ease-out
+    &:not(:checked) + .checkbox-material .check:after
+      -webkit-animation: rippleOff 700ms forwards ease-out
+      animation: rippleOff 700ms forwards ease-out
+    &:checked + .checkbox-material .check:after
+      -webkit-animation: rippleOn 700ms forwards ease-out
+      animation: rippleOn 700ms forwards ease-out
+    &[disabled]
+      &:not(:checked) ~ .checkbox-material .check:before
+        opacity: 0.5
+      + .circle
+        opacity: 0.5
+        .checkbox-material .check:after
+          background-color: rgba(0, 0, 0, 0.84)
+          -webkit-transform: rotate(-45deg)
+          transform: rotate(-45deg)
+
+.coloured
+  .checkbox-material
+    .check
+      color: #464545
+    &:before
+      background-color: #2FAEF8
+  input[type=checkbox]:checked + .checkbox-material .check
+    color: #2FAEF8
+
+.contact
+  margin: 100px auto 0 auto
+  width: 70%
+  .list-contact
+    margin-top: 70px
+    text-align: center
+    h5
+      font-size: 20px
+      font-weight: bold
+      letter-spacing: 0.77px
+      line-height: 23px
+      color: #FCC706
+      text-transform: uppercase
+      margin: 20px 0 15px 0
+    p
+      font-size: 18px
+      font-weight: 300
+      letter-spacing: 0.69px
+      line-height: 23px
+      text-align: left
+    a
+      color: #FCC706
+      font-weight: bold
+    img
+      margin-bottom: 20px
+  .title-page
+    font-family: 'GROBOLD'
+    font-size: 43px
+    letter-spacing: 1.33px
+    text-shadow: 0 0 10px 0 rgba(73, 73, 114, 0.2)
+    text-align: center
+    line-height: 45px
+
+#terms .title-page
+  font-family: 'GROBOLD'
+  font-size: 43px
+  letter-spacing: 1.33px
+  text-shadow: 0 0 10px 0 rgba(73, 73, 114, 0.2)
+  text-align: center
+  line-height: 45px
+
+.wrapper-content #terms
+  .box ul
+    margin-top: 0
+    li
+      margin-bottom: 20px
+      &.active a
+        color: #FCC706
+  &.faq ul li.active a
+    color: #FCC706
+  .box
+    padding: 25px
+  .box-terms
+    visibility: visible
+    -webkit-animation-fill-mode: both
+    -moz-animation-fill-mode: both
+    -ms-animation-fill-mode: both
+    -o-animation-fill-mode: both
+    animation-fill-mode: both
+    -webkit-animation-duration: 1s
+    -moz-animation-duration: 1s
+    -ms-animation-duration: 1s
+    -o-animation-duration: 1s
+    animation-duration: 1s
+    -webkit-animation-play-state: running
+    -moz-animation-play-state: running
+    -ms-animation-play-state: running
+    -o-animation-play-state: running
+    animation-play-state: running
+    animation-name: bounceInLeft
+    -webkit-animation-name: bounceInLeft
+    -moz-animation-name: bounceInLeft
+  .box-terms-right
+    visibility: visible
+    -webkit-animation-fill-mode: both
+    -moz-animation-fill-mode: both
+    -ms-animation-fill-mode: both
+    -o-animation-fill-mode: both
+    animation-fill-mode: both
+    -webkit-animation-duration: 1s
+    -moz-animation-duration: 1s
+    -ms-animation-duration: 1s
+    -o-animation-duration: 1s
+    animation-duration: 1s
+    -webkit-animation-play-state: running
+    -moz-animation-play-state: running
+    -ms-animation-play-state: running
+    -o-animation-play-state: running
+    animation-play-state: running
+    animation-name: bounceInRight
+    -webkit-animation-name: bounceInRight
+    -moz-animation-name: bounceInRight
+
+.faq .text-content-terms
+  height: 510px
+
+#terms
+  width: 95%
+  margin: 100px auto 0 auto
+
+.text-content-terms
+  .title
+    text-transform: uppercase
+    color: #FCC706
+    font-weight: 100
+    font-size: 18px !important
+    position: relative
+    top: -1px
+  height: 1283px
+  font-size: 16px
+  letter-spacing: 0.62px
+  line-height: 18px
+  a
+    color: #FCC706
+    text-decoration: underline
+
+#terms
+  .menu-link h6
+    font-size: 22px
+    font-weight: 700
+    letter-spacing: -0.03px
+    line-height: 31px
+    text-shadow: 0 0 10px 0 rgba(45, 45, 73, 0.2)
+    margin-bottom: 30px
+  .title-page
+    margin-bottom: 50px
+  .menu-link a
+    font-size: 16px
+    letter-spacing: 0.62px
+    line-height: 21px
+    color: #fff
+    &:hover
+      text-decoration: none
+      color: #FCC706
+  .group-section
+    margin-bottom: 30px
+    clear: both
+    .number
+      font-weight: 600
+      font-size: 18px
+      float: left
+      width: 60px
+    .text-decrible
+      width: 88%
+      float: right
+  .list-title
+    font-size: 20px
+    color: #FCC706
+    margin: 0 0 20px 0
+    i
+      display: none
+  p
+    line-height: 30px
+  .section-1
+    margin-top: 30px
+  ul
+    padding-left: 0
+    margin-top: 10px
+    list-style-type: none
+    li
+      font-size: 16px
+      line-height: 27px
+      margin-bottom: 15px
+  .list-menu span
+    padding-left: 23px
+    display: inline-block
+    width: 92%
+  ul li ul
+    padding-left: 30px
+    margin: 30px 0
+    clear: both
+    li
+      margin-bottom: 10px
+#terms ol ul
+  list-style-type: circle
+#terms
+  ol ol 
+    padding-left: 20px
+    > li:before
+      color: #ffffff !important
+      font-size: 16px !important
+      position: relative
+      top: 7px
+      margin-right: 10px
+      padding-top: 2px
+#terms
+  ol
+    padding: 0
+    margin: 0
+    counter-reset: item
+    > li
+      display: block
+    > li:before
+      content: " • "
+      counter-increment: item
+      font-weight: 100
+      color: #FCC706
+      font-size: 18px
+      float: left
+      padding-top: 6px
+#terms
+  ol
+    padding: 0
+    margin: 0
+    counter-reset: item
+    > .ql-indent-1
+      display: block
+      margin-left: 20px !important
+    > .ql-indent-1:before
+      content: " -  "
+      counter-increment: item
+      font-size: 18px
+      float: left
+      padding-top: 6px
+#terms
+  ol
+    padding: 0
+    margin: 0
+    counter-reset: item
+    > .ql-indent-2
+      display: block
+      margin-left: 40px !important
+    > .ql-indent-2:before
+      content: " +  "
+      counter-increment: item
+      font-size: 18px
+      float: left
+      padding-top: 6px
+#terms
+  .text-content-terms
+    ul
+      padding: 0
+      margin: 0
+      list-style-type: disc !important
+      > li:before
+        content: ""
+        font-weight: 100
+        font-size: 18px
+        float: left
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 2px;
+
+.card
+  background-color: #53527A
+  border: none
+  box-shadow: none
+  -webkit-box-shadow: none
+  -moz-box-shadow: none
+  margin-bottom: 20px
+  border-radius: 10px !important
+  -webkit-border-radius: 10px !important
+  -moz-border-radius: 10px !important
+  ul
+    margin-bottom: 20px
+    li
+      margin-bottom: 5px !important
+      &:last-child
+        margin-bottom: 0 !important
+.card-header
+  border: none
+  background: none
+  padding: 10px 15px 0 15px
+  h5 button
+    font-size: 20px
+    letter-spacing: -0.03px
+    text-shadow: 0 0 10px 0 rgba(45, 45, 73, 0.2)
+    color: #fff
+    &.collapsed:before
+      content: '\f3d1'
+      font-family: "Ionicons"
+      position: absolute
+      right: 30px
+      top: 20px
+    &:before
+      content: '\f3d0'
+      font-family: "Ionicons"
+      position: absolute
+      right: 30px
+      top: 20px
+    &:hover
+      color: #fff
+      text-decoration: none
+    &:focus
+      text-decoration: none
+    span
+      font-weight: bold
+.custom__usd
+  opacity: .6
+  font-weight: 100
+.card-body
+  padding: 0 27px
+.all-number
+  .head-number
+    background-color: #52527A
+    border-radius: 10px 10px 0 0
+    -webkit-border-radius: 10px 10px 0 0
+    -moz-border-radius: 10px 10px 0 0
+    padding: 20px
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto
+    .item
+      width: 40px
+      height: 40px
+      display: inline-block;
+      &.active
+        width: 40px
+        height: 40px
+        margin-right: 10px
+        margin-bottom: 5px
+        border-radius: 50%
+        border: 1px solid #7D7CBC
+        background-color: #EFEFF6
+        color: #4E4D79
+        font-weight: bold
+        text-align: center
+        line-height: 40px
+        animation: animation .3s ease !important
+  .outer-number
+    background-color: #3F3F65
+    border-radius: 0 0 10px 10px
+    -webkit-border-radius: 0 0 10px 10px
+    -moz-border-radius: 0 0 10px 10px
+    padding: 20px
+  .head-number .number-result .outer
+    position: relative
+    top: inherit
+  .number-result.full-number .outer
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto
+    .plus
+      font-weight: bold
+      font-size: 23px
+    .item.empty
+      border: 1px dashed #9291BB
+      background-color: #494873
+      color: #9291BB
+      font-weight: bold
+      font-size: 23px
+  .set-number
+    padding-top: 20px
+    .input-number, .input-number-2
+      color: #FFCF20
+      font-size: 18px
+      letter-spacing: 0.69px
+      line-height: 23px
+      display: inline-block
+      width: 80px
+      margin-bottom: 0
+      height: inherit
+      padding: 6px 0
+      border-radius: 50px
+      margin-right: 10px
+      font-weight: bold
+    .text-set-number
+      font-size: 14px
+      letter-spacing: 0.54px
+      line-height: 18px
+      position: relative
+      top: 3px
+  .card-header
+    h5 button
+      &:before
+        position: relative
+        left: 0
+        top: 0
+        right: inherit
+      border-right: 1px solid #d2d2d250
+      border-radius: 0
+      margin: 0
+      height: 68px
+      padding: 0 25px
+      margin-right: 20px
+    background-color: #52527A
+    border-radius: 10px 10px 0 0
+    padding: 0
+  .number-result .item
+    background-color: #494873
+    border-radius: 50%
+    -webkit-border-radius: 50%
+    display: inline-block
+    width: 40px
+    height: 40px
+  .asset-button, .number-result
+    display: inline-block
+  .card
+    background-color: #3F3F65
+  .number-result
+    //width: 55%
+    position: relative
+  .card-header p
+    position: absolute
+    right: 20px
+    top: 22px
+    font-size: 15px
+    color: #E2E1F7
+    letter-spacing: 0.58px
+    margin-bottom: 0
+  .number-result .outer
+    padding-top: 0
+    display: grid
+    grid-template-columns: auto auto auto auto auto auto
+    position: absolute
+    top: -26px
+  .no-number
+    margin-top: 20px
+    display: grid
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto
+    .item
+      width: 40px
+      height: 40px
+      background-color: #4E4D79
+      border: 1px solid #7D7CBC
+      color: #fff
+      border-radius: 50%
+      -webkit-border-radius: 50%
+      -moz-border-radius: 50%
+      line-height: 40px
+      text-align: center
+      margin-bottom: 20px
+      cursor: pointer
+  .number-result .outer .item
+    width: 40px
+    height: 40px
+    background-color: #4E4D79
+    border: 1px solid #7D7CBC
+    color: #fff
+    border-radius: 50%
+    -webkit-border-radius: 50%
+    -moz-border-radius: 50%
+    line-height: 37px
+    text-align: center
+    margin-bottom: 20px
+    cursor: pointer
+    margin-right: 13px
+  .no-number .item.active, .number-result .outer .item.active
+    background-color: #EFEFF6
+    color: #4E4D79
+    font-weight: bold
+    animation: animation .3s ease !important
+  .no-number .item.active.random-number, .number-result .outer .item.active.random-number
+    background-color: #F7981C
+    color: #fff
+
+.input-number, .input-number-2
+  width: 38px
+  vertical-align: top
+  text-align: center
+  outline: none
+
+.input-number, .input-number-decrement, .input-number-increment, .input-number-2
+  height: 38px
+  user-select: none
+  background-color: #3B3A5E
+  border: none
+  color: #fff
+
+.input-number-decrement, .input-number-increment
+  display: inline-block
+  width: 38px
+  line-height: 38px
+  background-color: #46456F
+  color: #fff
+  text-align: center
+  cursor: pointer
+  font-weight: 300
+  font-size: 18px
+
+.input-number-decrement:active, .input-number-increment:active
+  background-color: #3B3A5E
+
+.input-number-decrement
+  border-right: none
+  border-radius: 50px 0 0 50px
+
+.input-number-increment
+  border-left: none
+  border-radius: 0 50px 50px 0
+
+.choose-ticket
+  margin: 30px 0
+  background-color: #3B3A5E
+  border-radius: 10px
+  -webkit-border-radius: 10px
+  -moz-border-radius: 10px
+  padding: 30px
+  position: relative
+  .number-ticket
+    font-size: 24px
+    line-height: 31px
+    margin-bottom: 25px
+    i
+      color: #1ED143
+      font-size: 24px
+      margin-left: 10px
+  .function-ticket
+    position: absolute
+    right: 30px
+    top: 25px
+    a
+      display: inline-block
+      border: 1px solid rgba(255, 255, 255, 0.68)
+      width: 40px
+      height: 40px
+      border-radius: 50%
+      -webkit-border-radius: 50%
+      -moz-border-radius: 50%
+      line-height: 40px
+      text-align: center
+      color: rgba(255, 255, 255, 0.68)
+      cursor: not-allowed
+      margin-left: 10px
+      &.active
+        color: #fff
+        border: 1px solid #fff
+        cursor: pointer
+
+.title__faq
+  font-family: 'GROBOLD'
+  font-size: 43px
+  letter-spacing: 1.33px
+  line-height: 52px
+  text-shadow: 0 0 10px 0 rgba(73, 73, 114, 0.2)
+  margin-bottom: 30px
+
+.frame
+  clear: both
+  margin: 30px 0 !important
+  border: 1px solid #ccc
+  .group
+    border-bottom: 1px solid #ccc
+    .col-left
+      font-weight: 600
+      line-height: 25px
+      margin-top: 20px
+    .col-right
+      border-left: 1px solid #ccc
+      background: none !important
+      padding: 13px 20px
+    &:last-child
+      border-bottom: none
+
+#terms .frame .col-right ul
+  padding-left: 20px
+  li
+    display: list-item
+    list-style: circle
+
+.text-info
+  background: #f9daa1
+  border: 1px solid orange
+  border-radius: 10px
+  padding: 2px 54px
+  display: inline-flex
+  margin-top: 25px
+  text-align: center
+  color: #585757
+  font-size: 18px
+  font-weight: 500
+
+.list-menu
+  padding-left: 22px !important
+  li
+    margin-bottom: 15px
+    a
+      color: #0E52AD
+      text-transform: capitalize
+      border: none
+      font-size: 14px
+      line-height: 36px
+      position: relative
+      bottom: 8px
+    &:before
+      content: ""
+      width: 20px
+      height: 20px
+      background: #ccc
+      display: block
+      float: left
+      position: absolute
+      left: 0
+      font-size: 12px
+      border-radius: 5px
+      -webkit-border-radius: 5px
+      -moz-border-radius: 5px
+
+.margin-button
+  margin-top: 15px !important
+
+.button-continue
+  width: 100%
+  background-color: #FFCF20
+  color: #ffffff
+  text-transform: uppercase
+  font-size: 14px
+  font-weight: bold
+  letter-spacing: 0.54px
+  padding: 15px 44px
+  display: inline-block
+  margin-top: 15px
+  text-align: center
+
+.button-claim
+  background-color: #FFCF20
+  color: #ffffff
+  text-transform: uppercase
+  font-size: 14px
+  font-weight: bold
+  letter-spacing: 0.54px
+  padding: 15px 30px
+  height: 50px
+  display: inline-block
+  margin: 5px 0 10px 0
+
+.button-disable
+  background: none !important
+  border: 1px solid #ffffff2e
+  color: #ffffff2e !important
+  -webkit-box-shadow: none !important
+  -moz-box-shadow: none !important
+  box-shadow: none !important
+  cursor: not-allowed
+  pointer-events: none
+
+.button-copy
+  position: relative
+  background-color: #FFCF20
+  color: #ffffff
+  text-transform: uppercase
+  font-size: 14px
+  font-weight: bold
+  letter-spacing: 0.54px
+  padding: 15px 0
+  width: 100%
+  display: block
+  text-align: center
+
+.button-claim:hover, .button-copy:hover
+  color: #ffffff
+  text-decoration: none
+
+.text-play
+  text-align: center
+  width: 80%
+  margin: 0 auto
+  font-size: 18px
+  letter-spacing: 0.59px
+  line-height: 26px
+  margin-bottom: 25px
+
+#block-rules-and-information
+  margin-top: 200px
+  .list-scroll
+    height: 500px
+    background: #53527A
+  .container .tab-content.about-the-game .inner
+    padding: 40px 10px 40px 40px
+    .wrapper-content
+      .title
+        color: #FFFFFF
+        font-family: 'GROBOLD'
+        font-size: 32px
+        letter-spacing: 0.99px
+        text-shadow: 0 0 10px 0 rgba(73, 73, 114, 0.2)
+        margin-bottom: 25px
+        line-height: 32px
+      p
+        color: #FFFFFF
+        font-size: 18px
+        letter-spacing: 0.59px
+        font-weight: 100
+        margin-bottom: 20px
+      .group:not(:last-child)
+        margin-bottom: 55px
+  .inner
+    background-color: #53527A
+    color: #fff
+    border-radius: 0 0 4px 4px
+    -webkit-border-radius: 0 0 4px 4px
+    -moz-border-radius: 0 0 4px 4px
+    margin: 0
+
+#block-latest-results
+  position: relative
+  .back-detail
+    position: absolute
+    right: 20px
+    top: 12px
+    img
+      margin-right: 10px
+    a
+      color: #fff
+      font-size: 14px
+      &:hover
+        text-decoration: none
+  table.table-detail tbody td
+    width: 20%
+    padding: 12px 0
+    font-size: 16px
+    span
+      margin-right: 5px
+      &.number
+        color: #FFCF20
+.mCSB_inside > .mCSB_container
+  margin-right: 30
+
+.qrcode
+  .no-padding-right
+    padding-right: 0
+  .no-padding-left
+    padding-left: 0
+  input
+    color: #fff !important
+
+.block-game-play .no-padding
+  padding: 0
+
+.list-result-detail
+  padding: 20px 30px 10px 30px
+
+.authorization, .summary
+  font-size: 14px
+
+.authorization
+  p:first-child
+    font-size: 24px
+  a
+    width: 100%
+    text-align: center
+    font-size: 14px
+    font-weight: bold
+    letter-spacing: 0.54px
+    background-color: #FFCF20
+    display: block
+    padding: 15px 0
+    margin: 10px 0
+    color: #fff
+    &:hover
+      color: #fff
+      text-decoration: none
+
+.summary
+  .text-notes
+    margin-bottom: 30px
+    color: #ffffff60
+  .section
+    border-top: 1px solid #ffffff3b
+    padding: 20px 0
+    p
+      margin-bottom: 5px
+    h6
+      color: #FFCF20
+      font-size: 24px
+      letter-spacing: -0.06px
+      line-height: 31px
+      text-shadow: 0 0 10px 0 rgba(45, 45, 73, 0.2)
+  .buttons
+    margin: 30px 0
+
+.button-half
+  width: 49%
+
+.button-back, .button-submit
+  padding: 15px 0
+  color: #fff
+  display: inline-block
+  text-align: center
+  font-weight: bold
+  letter-spacing: 0.54px
+  -webkit-transition: background-color 0.3s, color 0.3s, width 0.3s, border-width 0.3s, border-color 0.3s
+  transition: background-color 0.3s, color 0.3s, width 0.3s, border-width 0.3s, border-color 0.3s
+
+.button-back:hover
+  background-color: #FFCF20
+  color: #fff
+  border: 2px solid #FFCF20
+  -webkit-transition: background-color 0.3s, color 0.3s, width 0.3s, border-width 0.3s, border-color 0.3s
+  transition: background-color 0.3s, color 0.3s, width 0.3s, border-width 0.3s, border-color 0.3s
+
+.button-cancel
+  color: #8180A9
+  text-align: center
+  font-size: 14px
+  letter-spacing: 0.54px
+  text-decoration: underline
+  display: block
+  margin-top: 20px
+  font-weight: bold
+
+.button-cancel-white
+  color: #fff !important
+
+.button-cancel:hover
+  color: #8180A9
+
+.button-back
+  background: none
+  border: 2px solid #8180A9
+
+.button-submit
+  background-color: #FFCF20
+
+.button-back:hover, .button-submit:hover
+  color: #fff
+  text-decoration: none
+
+.button-home
+  padding: 15px 30px
+  display: inline-block
+  margin-top: 20px
+
+.text-qr-head
+  margin-bottom: 0 !important
+  text-align: center
+  width: 100%
+
+.qr-image
+  margin: auto
+  text-align: center
+  margin-bottom: 30px
+  width: 260px
+
+.token-number
+  height: 58px
+  width: 100%
+  background: rgba(255, 255, 255, 0.1)
+  font-size: 18px !important
+  letter-spacing: 0.69px !important
+  border-radius: 29px !important
+  -webkit-border-radius: 29px !important
+  -moz-border-radius: 29px !important
+  line-height: 58px !important
+  text-align: center
+  padding: 0 100px 0 30px
+  overflow: hidden
+  text-overflow: ellipsis
+  position: relative
+  .button-copy
+    position: absolute
+    right: 0
+    top: 0
+    width: 100px
+    padding: 0
+    background-color: #424164
+    margin: 0
+
+.list-steps
+  width: 90%
+  margin: 0 auto
+  .pull-left, .pull-right
+    display: inline-block
+    width: 49%
+  .pull-left ul li
+    margin-bottom: 50px
+    .img
+      float: left
+      width: 14%
+      margin-right: 30px
+    .content-right
+      float: right
+      width: 79%
+    p
+      &:first-child
+        font-weight: bold
+        font-size: 20px
+        line-height: 32px
+        margin-bottom: 0
+      &:last-child
+        font-size: 16px
+        line-height: 30px
+        
+  .pull-right 
+    .img-steps
+      max-width: 100%
+      height: auto
+      margin-top: 70px
+
+/*KYC STEPS
+
+.home-steps
+  margin-top: 85px
+  #steps
+    border: none
+    padding-bottom: 0
+    margin-bottom: 0
+    ul li .number__steps
+      margin-bottom: 0
+    .line-progress
+      max-width: 710px
+      bottom: 47px
+    ul li
+      width: 32%
+
+#steps
+  text-align: center
+  border-bottom: 1px solid #ffffff24
+  margin-bottom: 25px
+  padding-bottom: 18px
+  position: relative
+  ul
+    padding-left: 0
+    position: relative
+    z-index: 2
+    li
+      display: inline-block
+      width: 28%
+      &:first-child
+        position: relative
+        left: -21px
+      &:last-child
+        position: relative
+        left: 20px
+      a
+        color: #A8B0BF
+        &:hover
+          text-decoration: none
+        p
+          margin-bottom: 0
+          font-size: 14px
+          letter-spacing: 0.54px
+          color: #fff
+          font-weight: 300
+      .number__steps
+        font-weight: bold
+        font-size: 18px
+        background-color: #3F4563
+        border-radius: 50%
+        width: 58px
+        height: 58px
+        line-height: 58px
+        margin: 0 auto 10px auto
+      &.active .number__steps
+        background-color: #FFCF20
+        color: #fff
+  .line-progress
+    border-top: 4px solid #3F4563
+    margin: 20px auto 0 auto
+    max-width: 380px
+    position: relative
+    bottom: 84px
+    z-index: 1
+    .line-progress-bar
+      width: 30%
+      height: 4px
+      position: absolute
+      left: 0
+      top: -4px
+      background-color: #FFCF20
+  &.half
+    li:first-child .number__steps
+      background-color: #FFCF20
+      color: #fff
+    .line-progress-bar
+      width: 80%
+  &.full
+    li
+      &:first-child .number__steps, &:nth-child(2) .number__steps
+        background-color: #FFCF20
+        color: #fff
+    .line-progress-bar
+      width: 100%
+
+.text-404
+  font-family: 'GROBOLD'
+  font-size: 170px
+  letter-spacing: 3.54px
+  text-shadow: 0 0 10px 0 rgba(73, 73, 114, 0.2)
+  line-height: 204px
+
+.page-404
+  text-align: center
+  margin-top: 100px
+
+.go-top
+  position: fixed
+  bottom: 2em
+  right: 2em
+  text-decoration: none
+  color: #fff
+  background-color: #ffcf20
+  font-size: 30px
+  padding: 7px 16px
+  border-radius: 5px
+  display: none
+  z-index: 999
+
+.navigation .link-navigation
+  background-color: #53527A
+  display: inline-block
+  padding-left: 0
+  list-style: none
+  float: right
+  border-radius: 4px
+  -webkit-border-radius: 4px
+  -moz-border-radius: 4px
+  margin: 30px 0
+  li
+    float: left
+    a
+      background-color: #3B3A5E
+      padding: 18px 20px
+      display: block
+      font-size: 18px
+      font-weight: bold
+      border-right: 1px solid #616088
+      color: #fff
+    &:last-child a
+      border-right: 0
+    a:hover, &.active a
+      background-color: #FCC706
+      color: #fff
+      text-decoration: none
+    &.prev a, &.next a
+      color: #FCC706
+      font-size: 14px
+    &.prev:hover a
+      color: #fff
+      border-radius: 4px 0 0 4px
+      -webkit-border-radius: 4px 0 0 4px
+      -moz-border-radius: 4px 0 0 4px
+    &.next:hover a
+      color: #fff
+      border-radius: 4px 0 0 4px
+      -webkit-border-radius: 4px 0 0 4px
+      -moz-border-radius: 4px 0 0 4px
+      border-radius: 0 4px 4px 0
+      -webkit-border-radius: 0 4px 4px 0
+      -moz-border-radius: 0 4px 4px 0
+    &.prev img
+      padding-right: 8px
+    &.next img
+      padding-left: 8px
+
+.tooltip.show
+  opacity: 1
+  
+  
+.tooltip.tooltiptext
+
+
+.tooltip-inner
+  background: #fff
+  max-width: 300px
+  color: #3C3C3C
+  font-size: 14px
+  letter-spacing: 0.07px
+  text-align: left
+
+.bs-tooltip-auto[x-placement^=bottom] .arrow::before, .bs-tooltip-bottom .arrow::before
+  border-bottom-color: #fff
+
+#footer
+  margin-top: 210px
+  clear: both
+  .wrapper-content
+    .box
+      padding: 30px 15px 0px
+      ul
+        margin-top: 5px
+  .pull-top
+    ul
+      display: flex
+      justify-content: space-between
+      list-style: none
+      padding-left: 0
+      margin-bottom: 30px
+      li a
+        color: #fff
+        font-size: 14px
+        font-weight: bold
+        letter-spacing: 0.54px
+        line-height: 18px
+        &:hover
+          text-decoration: none
+          color: #FFCF20
+    p
+      font-size: 12px
+      letter-spacing: 0.57px
+      line-height: 16px
+      color: #ffffff80
+  .pull-left
+    display: inline-block
+    vertical-align: top
+  .pull-right
+    display: inline-block
+    vertical-align: top
+    position: relative
+    bottom: 10px
+    padding: 0px
+  #footer-logo
+    width: 90px
+    margin-right: 45px
+  #navigation-footer
+    width: 85%
+  .pull-bottom
+    display: flex
+    margin: 30px 0
+    justify-content: space-between
+    clear: both
+    input
+      &[type='text']
+        border: none
+        background: #ffffff20
+        border-radius: 50px
+        -webkit-border-radius: 50px
+        -moz-border-radius: 50px
+        height: 50px
+        line-height: 50px
+        padding: 0 20px
+        color: #fff
+        font-size: 14px
+        letter-spacing: 0.54px
+        min-width: 240px
+        &:focus
+          outline: 0
+      &::-webkit-input-placeholder
+        /* Chrome/Opera/Safari
+        color: #fff
+        font-size: 14px
+        letter-spacing: 0.54px
+      &::-moz-placeholder
+        /* Firefox 19+
+        color: #fff
+        font-size: 14px
+        letter-spacing: 0.54px
+    .form-letter input
+      &:-ms-input-placeholder
+        /* IE 10+
+        color: #fff
+        font-size: 14px
+        letter-spacing: 0.54px
+      &:-moz-placeholder
+        /* Firefox 18-
+        color: #fff
+        font-size: 14px
+        letter-spacing: 0.54px
+    input[type='submit']
+      background-color: #FFCF20
+      color: #fff
+      text-transform: uppercase
+      font-size: 14px
+      font-weight: bold
+      letter-spacing: 0.54px
+      padding: 12px 20px
+      border: none
+      box-shadow: none
+      -webkit-box-shadow: none
+      -moz-box-shadow: none
+      border-radius: 50px
+      -webkit-border-radius: 50px
+      -moz-border-radius: 50px
+      margin-left: 15px
+      cursor: pointer
+      &:focus
+        outline: 0
+    .copy-right
+      margin: 15px 0 0 0
+  .block-logo ul
+    padding-left: 0
+    list-style: none
+    text-align: right
+    li
+      display: inline
+      margin-left: 3px
+      a
+        img
+          margin-bottom: 10px
+.block-game-play
+  #footer
+    margin-top: 100px
+  &.block-my-ticket
+    background-position-y: 47% !important
+.eth-custom
+  margin-bottom: 0px
+  display: inline-flex
+  p
+    font-size: 32px !important
+    line-height: 36px !important
+    font-weight: bold !important
+    margin-right: 2px
+    text-overflow: ellipsis
+    white-space: nowrap
+    overflow: hidden
+    max-width: 100%
+    color: #FFFFFF	
+    letter-spacing: -0.11px	
+    text-shadow: 0 0 10px 0 rgba(45,45,73,0.2)
+#game-play
+  margin: 80px 0
+  .inner
+    margin-bottom: 20px
+    padding: 8px
+    background-color: #454469
+    border-radius: 10px
+    -webkit-border-radius: 10px
+    -moz-border-radius: 10px
+    &.clear-background
+      background: none
+  .group
+    .items
+      display: inline-block
+      vertical-align: top
+      padding: 20px
+    .jackpot
+      .draw_jackpot
+        display: block
+        align-items: center
+      h5
+        font-family: 'GROBOLD'
+        font-size: 24px
+        letter-spacing: 0.5px
+        line-height: 29px
+        text-shadow: 0 0 10px 0 rgba(73, 73, 114, 0.2)
+        color: #FFCF20
+        margin-top: 5px
+      .text-number-eth
+        font-sze: 44px
+        letter-spacing: -0.11px
+        line-height: 20px
+        text-shadow: 0 0 10px 0 rgba(45, 45, 73, 0.2)
+        font-weight: bold
+        margin: 15px 0
+        span
+          font-weight: normal
+          font-size: 24px
+      p:last-child
+        font-size: 20px
+        letter-spacing: -0.06px
+        line-height: 20px
+        font-weight: 300
+        text-shadow: 0 0 10px 0 rgba(45, 45, 73, 0.2)draw_jackpot
+    .link
+        a
+          background: transparent;
+          border-radius: 0;
+          padding: 0;
+          margin: 0;
+          font-size: 13px;
+          padding: 5px 15px 5px 0;
+          box-shadow: none;
+          font-weight: normal;
+          text-decoration: underline;
+          display: inline-block;
+          color: rgba(255, 255, 255, 0.43);
+    .draw
+      margin-top: 13px
+      p:first-child
+        font-size: 14px
+        letter-spacing: 0.54px
+        line-height: 18px
+      .count-time
+        font-size: 44px
+        font-weight: bold
+        margin: 23px 0 30px 0
+        letter-spacing: -0.11px
+        text-shadow: 0 0 10px 0 rgba(45, 45, 73, 0.2)
+      p:last-child
+        font-size: 24px
+        letter-spacing: -0.06px
+        text-shadow: 0 0 10px 0 rgba(45, 45, 73, 0.2)
+  .left
+    float: left
+    width: 65%
+    background-color: #53527A
+    border-radius: 10px 0 0 10px
+    -webkit-border-radius: 10px 0 0 10px
+    -moz-border-radius: 10px 0 0 10px
+    min-height: 190px
+  .right
+    float: right
+    width: 35%
+    img
+      width: 100%
+      height: 190px
+  .background-right
+    background-color: #454469
+    border-radius: 0 10px 10px 0
+    -webkit-border-radius: 0 10px 10px 0
+    -moz-border-radius: 0 10px 10px 0
+    min-height: 190px
+    .inner
+      .tickets
+        margin-top: 10px
+
+
+.tab-type
+  margin-top: 0
+  border-radius: 10px 0 0 0
+  -webkit-border-radius: 10px 0 0 0
+  -moz-border-radius: 10px 0 0 0
+  display: block
+  justify-content: inherit
+  text-align: left
+/* padding-left: 50px
+
+.tab-border-radius-full
+  border-radius: 10px 10px 0 0
+  -webkit-border-radius: 10px 10px 0 0
+  -moz-border-radius: 10px 10px 0 0
+
+.tab-type li
+  display: inline-block
+  width: auto
+/*margin-right: 80px
+
+.ticket
+  margin-top: 30px
+  > div > div
+    margin-bottom: 30px
+  .inner-ticket::after
+    content: ''
+    position: absolute
+    height: 250px
+    transform: scale(1.3)
+    top: 0
+    right: 40px
+    width: 280px
+  .inner-ticket
+    position: relative
+    overflow: hidden
+    background-color: #3B3A5E
+    border-radius: 10px
+    -webkit-border-radius: 10px
+    -moz-border-radius: 10px
+    padding: 20px
+    .row
+      position: relative
+      z-index: 1
+    .title-head-ticket
+      font-size: 18px
+      letter-spacing: -0.03px
+      text-shadow: 0 0 10px 0 rgba(45, 45, 73, 0.2)
+      margin-bottom: 30px
+      color: #fff
+      span
+        font-weight: bold
+    p
+      &:nth-child(2)
+        font-size: 18px
+        letter-spacing: 0.69px
+        line-height: 30px
+        color: #ffffff
+        margin-bottom: 15px
+      font-size: 14px
+      letter-spacing: 0.54px
+      color: #ffffff60
+      margin-bottom: 5px
+    .status-ticket
+      font-family: 'GROBOLD'
+      font-size: 32px
+      letter-spacing: 1.04px
+      line-height: 60px
+      text-shadow: 0 0 10px 0 rgba(73, 73, 114, 0.2)
+      color: #fff
+      margin-bottom: 15px
+      &.latest
+        color: #FFCF20
+    a
+      font-size: 14px
+      font-weight: 300
+      text-decoration: underline
+      letter-spacing: 0.54px
+      line-height: 30px
+      color: #fff
+
+.status
+  border-radius: 3px
+  -webkit-border-radius: 3px
+  -moz-border-radius: 3px
+  font-size: 16px
+  font-weight: 100
+  text-align: center
+  padding: 0px 10px
+  margin-top: -10px
+  margin-left: 10px
+  display: inline-block
+  background-color: #A8B4C3
+  &.selling
+    background-color: #F7981C
+
+
+.hide
+  display: none
+
+/* Claim winning
+
+.claim-winning .table-title
+  margin-top: 10px
+  width: 100%
+
+.history-empty
+  height: 300px
+  text-align: center
+  vertical-align: middle
+  display: flex
+  justify-content: center
+  flex-direction: column
+
+.claim-winning-empty
+  height: 300px
+  text-align: center
+  vertical-align: middle
+  display: flex
+  justify-content: center
+  flex-direction: column
+  .bg-claim-winning
+    background-size: 179px 143px
+    display: block
+.table tbody
+.claim-winning
+  .table thead th
+    border: none
+  table tbody td p
+    margin-bottom: 0
+  .table-detail thead tr th
+    border: none
+    font-size: 14px
+    padding: 10px 0
+    color: #ffffffa6 !important
+    font-weight: 300
+  .table-detail thead tr
+    border-bottom: 1px solid #ffffff31
+    th
+      padding: 10px 3px
+  .table-title thead tr th
+    /*width: 15%
+    font-size: 14px
+    color: #FFFFFF
+    border: none
+    padding: 10px 3px
+  table
+    &.table-detail
+      td
+        &:first-child
+          width: 5%
+        width: 10%
+        padding: 12px 0
+        font-size: 16px
+        min-height: 57px
+        border: none
+        .custom-checkbox
+          margin-left: 2px
+        .custom-control-label
+          &::before
+            border: 2px solid #FFF
+            background: transparent
+            outline: none
+            box-shadow: none
+            width: 1.25rem
+            height: 1.25rem
+          &::after
+            width: 1.25rem
+            height: 1.25rem
+        .custom-checkbox .custom-control-input:checked ~ .custom-control-label::before
+          background: #FFCF20
+          border: none
+        span
+          margin-right: 5px
+        .eth-value
+          font-size: 18px
+          letter-spacing: 0.69px
+          font-weight: bold
+        .usd-value
+          font-size: 16px
+          letter-spacing: 0.62px
+      tfoot td span.number, tbody td span.number
+        color: #FFCF20
+    &.table-footer tfoot td
+      border: none
+
+/*
+ *.claim-winning .table-detail tfoot tr,
+ *.claim-winning .table-detail tbody tr,
+ *.claim-winning .table-title thead tr
+ *    display: flex
+ *    align-items: center
+ *}
+ *
+ *.claim-winning table.table-detail tfoot td:first-child,
+ *.claim-winning table.table-detail tbody td:first-child
+ *    flex: 0 0 8.333333%
+ *    max-width: 8.333333%
+ *}
+ *
+ *.claim-winning table.table-detail tfoot td,
+ *.claim-winning table.table-detail tbody td
+ *    flex: 0 0 16.666667%
+ *    max-width: 16.666667%
+ *}
+ *
+ *.claim-winning table.table-detail tfoot td:last-child,
+ *.claim-winning table.table-detail tbody td:last-child
+ *    flex: 0 0 25%
+ *    max-width: 25%
+ *}
+
+/* // Claim winning
+
+/*Scroll animation
+
+.animatable
+  visibility: hidden
+  -webkit-animation-play-state: paused
+  -moz-animation-play-state: paused
+  -ms-animation-play-state: paused
+  -o-animation-play-state: paused
+  animation-play-state: paused
+
+.animated
+  visibility: visible
+  -webkit-animation-fill-mode: both
+  -moz-animation-fill-mode: both
+  -ms-animation-fill-mode: both
+  -o-animation-fill-mode: both
+  animation-fill-mode: both
+  -webkit-animation-duration: 1s
+  -moz-animation-duration: 1s
+  -ms-animation-duration: 1s
+  -o-animation-duration: 1s
+  animation-duration: 1s
+  -webkit-animation-play-state: running
+  -moz-animation-play-state: running
+  -ms-animation-play-state: running
+  -o-animation-play-state: running
+  animation-play-state: running
+  &.animationDelay
+    animation-delay: .4s
+    -webkit-animation-delay: .4s
+  &.animationDelayMed
+    animation-delay: 1.2s
+    -webkit-animation-delay: 1.2s
+  &.animationDelayLong
+    animation-delay: 1.6s
+    -webkit-animation-delay: 1.6s
+  &.fadeBgColor
+    -webkit-animation-name: fadeBgColor
+    -moz-animation-name: fadeBgColor
+    -o-animation-name: fadeBgColor
+    animation-name: fadeBgColor
+  &.bounceIn
+    -webkit-animation-name: bounceIn
+    -moz-animation-name: bounceIn
+    -o-animation-name: bounceIn
+    animation-name: bounceIn
+  &.bounceInRight
+    -webkit-animation-name: bounceInRight
+    -moz-animation-name: bounceInRight
+    -o-animation-name: bounceInRight
+    animation-name: bounceInRight
+  &.bounceInLeft
+    -webkit-animation-name: bounceInLeft
+    -moz-animation-name: bounceInLeft
+    -o-animation-name: bounceInLeft
+    animation-name: bounceInLeft
+  &.fadeIn
+    -webkit-animation-name: fadeIn
+    -moz-animation-name: fadeIn
+    -o-animation-name: fadeIn
+    animation-name: fadeIn
+  &.fadeInDown
+    -webkit-animation-name: fadeInDown
+    -moz-animation-name: fadeInDown
+    -o-animation-name: fadeInDown
+    animation-name: fadeInDown
+  &.fadeInUp
+    -webkit-animation-name: fadeInUp
+    -moz-animation-name: fadeInUp
+    -o-animation-name: fadeInUp
+    animation-name: fadeInUp
+  &.moveUp
+    -webkit-animation-name: moveUp
+    -moz-animation-name: moveUp
+    -o-animation-name: moveUp
+    animation-name: moveUp
+
+/* CSS Animations (extracted from http://glifo.uiparade.com/)
+
+@-webkit-keyframes fadeInDown
+  0%
+    opacity: 0
+    -webkit-transform: translateY(-20px)
+
+  100%
+    opacity: 1
+    -webkit-transform: translateY(0)
+
+@-moz-keyframes fadeInDown
+  0%
+    opacity: 0
+    -moz-transform: translateY(-20px)
+
+  100%
+    opacity: 1
+    -moz-transform: translateY(0)
+
+@-o-keyframes fadeInDown
+  0%
+    opacity: 0
+    -o-transform: translateY(-20px)
+
+  100%
+    opacity: 1
+    -o-transform: translateY(0)
+
+@keyframes fadeInDown
+  0%
+    opacity: 0
+    transform: translateY(-20px)
+
+  100%
+    opacity: 1
+    transform: translateY(0)
+
+@-webkit-keyframes fadeIn
+  0%
+    opacity: 0
+
+  20%
+    opacity: 0
+
+  100%
+    opacity: 1
+
+@-moz-keyframes fadeIn
+  0%
+    opacity: 0
+
+  20%
+    opacity: 0
+
+  100%
+    opacity: 1
+
+@-o-keyframes fadeIn
+  0%
+    opacity: 0
+
+  20%
+    opacity: 0
+
+  100%
+    opacity: 1
+
+@keyframes fadeIn
+  0%
+    opacity: 0
+
+  60%
+    opacity: 0
+
+  20%
+    opacity: 0
+
+  100%
+    opacity: 1
+
+@-webkit-keyframes bounceInLeft
+  0%
+    opacity: 0
+    -webkit-transform: translateX(-2000px)
+
+  60%
+    -webkit-transform: translateX(20px)
+
+  80%
+    -webkit-transform: translateX(-5px)
+
+  100%
+    opacity: 1
+    -webkit-transform: translateX(0)
+
+@-moz-keyframes bounceInLeft
+  0%
+    opacity: 0
+    -moz-transform: translateX(-2000px)
+
+  60%
+    -moz-transform: translateX(20px)
+
+  80%
+    -moz-transform: translateX(-5px)
+
+  100%
+    opacity: 1
+    -moz-transform: translateX(0)
+
+@-o-keyframes bounceInLeft
+  0%
+    opacity: 0
+    -o-transform: translateX(-2000px)
+
+  60%
+    opacity: 1
+    -o-transform: translateX(20px)
+
+  80%
+    -o-transform: translateX(-5px)
+
+  100%
+    opacity: 1
+    -o-transform: translateX(0)
+
+@keyframes bounceInLeft
+  0%
+    opacity: 0
+    transform: translateX(-2000px)
+
+  60%
+    transform: translateX(20px)
+
+  80%
+    transform: translateX(-5px)
+
+  100%
+    opacity: 1
+    transform: translateX(0)
+
+@-webkit-keyframes bounceInRight
+  0%
+    opacity: 0
+    -webkit-transform: translateX(2000px)
+
+  60%
+    -webkit-transform: translateX(-20px)
+
+  80%
+    -webkit-transform: translateX(5px)
+
+  100%
+    opacity: 1
+    -webkit-transform: translateX(0)
+
+@-moz-keyframes bounceInRight
+  0%
+    opacity: 0
+    -moz-transform: translateX(2000px)
+
+  60%
+    -moz-transform: translateX(-20px)
+
+  80%
+    -moz-transform: translateX(5px)
+
+  100%
+    opacity: 1
+    -moz-transform: translateX(0)
+
+@-o-keyframes bounceInRight
+  0%
+    opacity: 0
+    -o-transform: translateX(2000px)
+
+  60%
+    -o-transform: translateX(-20px)
+
+  80%
+    -o-transform: translateX(5px)
+
+  100%
+    opacity: 1
+    -o-transform: translateX(0)
+
+@keyframes bounceInRight
+  0%
+    opacity: 0
+    transform: translateX(2000px)
+
+  60%
+    transform: translateX(-20px)
+
+  80%
+    transform: translateX(5px)
+
+  100%
+    opacity: 1
+    transform: translateX(0)
+
+@-webkit-keyframes fadeInUp
+  0%
+    opacity: 0
+    -webkit-transform: translateY(20px)
+
+  100%
+    opacity: 1
+    -webkit-transform: translateY(0)
+
+@-moz-keyframes fadeInUp
+  0%
+    opacity: 0
+    -moz-transform: translateY(20px)
+
+  100%
+    opacity: 1
+    -moz-transform: translateY(0)
+
+@-o-keyframes fadeInUp
+  0%
+    opacity: 0
+    -o-transform: translateY(20px)
+
+  100%
+    opacity: 1
+    -o-transform: translateY(0)
+
+@keyframes fadeInUp
+  0%
+    opacity: 0
+    transform: translateY(20px)
+
+  100%
+    opacity: 1
+    transform: translateY(0)
+
+@-webkit-keyframes bounceIn
+  0%
+    opacity: 0
+    -webkit-transform: scale(0.3)
+
+  50%
+    -webkit-transform: scale(1.05)
+
+  70%
+    -webkit-transform: scale(0.9)
+
+  100%
+    opacity: 1
+    -webkit-transform: scale(1)
+
+@-moz-keyframes bounceIn
+  0%
+    opacity: 0
+    -moz-transform: scale(0.3)
+
+  50%
+    -moz-transform: scale(1.05)
+
+  70%
+    -moz-transform: scale(0.9)
+
+  100%
+    opacity: 1
+    -moz-transform: scale(1)
+
+@-o-keyframes bounceIn
+  0%
+    opacity: 0
+    -o-transform: scale(0.3)
+
+  50%
+    -o-transform: scale(1.05)
+
+  70%
+    -o-transform: scale(0.9)
+
+  100%
+    opacity: 1
+    -o-transform: scale(1)
+
+@keyframes bounceIn
+  0%
+    opacity: 0
+    transform: scale(0.3)
+
+  50%
+    transform: scale(1.05)
+
+  70%
+    transform: scale(0.9)
+
+  100%
+    opacity: 1
+    transform: scale(1)
+
+@-webkit-keyframes moveUp
+  0%
+    opacity: 1
+    -webkit-transform: translateY(40px)
+
+  100%
+    opacity: 1
+    -webkit-transform: translateY(0)
+
+@-moz-keyframes moveUp
+  0%
+    opacity: 1
+    -moz-transform: translateY(40px)
+
+  100%
+    opacity: 1
+    -moz-transform: translateY(0)
+
+@-o-keyframes moveUp
+  0%
+    opacity: 1
+    -o-transform: translateY(40px)
+
+  100%
+    opacity: 1
+    -o-transform: translateY(0)
+
+@keyframes moveUp
+  0%
+    opacity: 1
+    transform: translateY(40px)
+
+  100%
+    opacity: 1
+    transform: translateY(0)
+
+@-webkit-keyframes fadeBgColor
+  0%
+    background: none
+
+  70%
+    background: none
+
+  100%
+    background: #464646
+
+@-o-keyframes fadeBgColor
+  0%
+    background: none
+
+  70%
+    background: none
+
+  100%
+    background: #464646
+
+@keyframes fadeBgColor
+  0%
+    background: none
+
+  70%
+    background: none
+
+  100%
+    background: #464646
+
+/*Tablet
+@media (max-width: 1200px)
+  .draw_time
+    padding: 0 20px
+    position: relative
+    top: -45px
+  #block-banner .block-awards:before
+    width: 240px
+    transition: 0.5s
+    height: 240px
+    right: -120px
+    top: 0px
+@media (max-width: 1024px)
+  #slider-banner-home-game 
+    margin-top: 100px;
+    .slides .text-center
+      left: 0 !important
+  .draw_time
+    padding: 0 20px
+    position: relative
+    top: 0px
+  #count-down-block
+    h2
+      font-size: 15px !important
+  #block-banner .block-awards
+    border-radius: 10px
+    -webkit-border-radius: 10px
+    -moz-border-radius: 10px
+  .accordion_index
+    flex-direction: column
+    display: flex
+    li img
+      width: 100%
+    .carousel
+      margin: 50px auto auto auto
+      border-radius: 10px
+      -webkit-border-radius: 10px
+      -moz-border-radius: 10px
+  .tab-content table.table-detail-custom
+    width: 1024px !important
+  .container-custom 
+    min-width: 1024px !important
+    max-width: 100% !important
+  .background svg
+    display: none
+  .block-game-play
+    background-position-y: 0 !important
+  #wrapper
+    position: relative
+    background-size: cover
+    overflow: hidden
+  #block-phases .block-step-notes
+    .countdown .item span
+      padding: 8px 6px
+    .button-play
+      height: 57px
+  #block-banner
+    margin-top: 95px
+  #block-phases
+    margin-top: 356px
+  .home-steps #steps .line-progress
+    max-width: 700px
+  #block-latest-results
+    margin-top: 500px
+  #block-how
+    margin-top: 200px
+    .inner-content .item:first-child
+      left: 0
+  #block-accreditation
+    margin-top: 200px
+  #game-play
+    .left
+      width: 100%
+      border-radius: 10px
+      -webkit-border-radius: 10px
+      -moz-border-radius: 10px
+    .right
+      display: none
+    .background-right
+      display: block
+      width: 100%
+    .group .jackpot
+      .text-number-eth
+        font-size: 22px
+        line-height: 10px
+      p:last-child
+        font-size: 15px
+        line-height: 10px
+  .modal-medium-box .total
+    justify-content: flex-start
+    .text-total
+      margin-right: 30px
+  #footer
+    margin-top: 200px
+    #navigation-footer
+      width: 80%
+  #block-latest-results
+    .table-title thead tr th, table tbody td
+      text-align: center
+  .wrapper-content .box ul li .inner
+    margin-bottom: 20px
+    min-height: 533px
+  .block-game-play
+    .text
+      display: block
+    .group a
+      display: inline-block
+      margin-bottom: 15px
+    .box #block-latest-results table tbody td
+      &:first-child
+        text-align: left
+      &:nth-child(2)
+        text-align: center
+  .sub-pages #footer
+    margin-top: 200px !important
+  .list-steps .pull-left ul li .content-right
+    width: 72%
+@media screen and (min-width: 992px)
+  #side-menu:hover
+    margin-left: 0
+    transition: all .4s
+    .icon-menu
+      margin-left: 0
+      margin-bottom: 0px
+      transition: all .4s
+    .menu-slide
+      p
+        margin-left: 0
+        margin-bottom: 15px
+        transform: scale(1)
+        animation-duration: 1s
+        transition: all .4s  
+        line-height: 14px
+  #side-menu
+    margin-left: -40px
+    transition: all .4s    
+    .icon-menu 
+      margin-left: 35px
+      margin-bottom: -14px
+      animation: animationScale ease 1s
+      transition: all .4s     
+    .menu-slide
+      p
+        margin-left: -100px 
+        transform: scale(0)
+        transition: all .4s   
+        height: 0 
+@keyframes animationScale  
+  50%
+    transform: scale(1.1)
+  100%
+    transform: scale(1)        
+@media (max-width: 992px)
+  .all-number
+    .head-number 
+      padding: 5px
+      .item.active
+        margin-right: 5px !important
+        width: 33px
+        height: 33px
+        font-size: 13px
+        line-height: 33px
+        margin-bottom: 5px
+  .jackpot_group
+    display: inline-table !important
+  .news
+    .medium-box
+      width: 100% !important
+  #count-down-block .countdown_item .countdown_number
+    font-size: 30px
+  #count-down-block
+    .countdown_form
+      position: relative
+      top: -10px
+    h2
+      position: absolute
+      top: 30px !important
+  .draw_time
+    position: relative
+    top: -25px
+    left: -15px
+  #block-latest-results .block-result, #block-latest-results .list-result
+    
+  #block-accreditation .content-accreditation .owl-stage
+    display: block
+  #terms
+  .list-contact 
+    .col-md-8
+      flex: 0 0 100% !important
+      max-width: 100% !important
+  .ticket
+    .inner-ticket::after
+      top: 23px
+      transform: scale(1.32) !important
+  #navigation a
+    .psuedo-text
+      position: absolute
+      left: 50%
+      margin-left: -50px
+  #navigation a::after
+    background: none
+  #block-accreditation .content-accreditation .inner
+    min-height: auto !important
+  .eth-custom p
+    font-size: 30px !important
+    text-overflow: none
+    max-width: 1000px
+    font-weight: bold
+  #block-banner .block-awards:before 
+    content: ""
+    display: block
+    position: absolute
+    width: 270px
+    height: 361px
+    right: -112px !important
+    top: -25px
+    z-index: 3
+
+  .fixed
+    position: relative
+    overflow: hidden
+    .ion-android-menu:before
+      content: '\f2d7'
+  .desktop
+    display: none
+  .mobile
+    display: block
+  #side-menu
+    display: none
+    &.is-mobile
+      bottom: 0
+      background-color: #292946
+      width: 100%
+      z-index: 10
+      display: block
+      animation-name: bounceInLeft
+      animation-duration: 1s
+      animation-fill-mode: both
+      animation-play-state: running
+    ul
+      display: flex
+      justify-content: space-between
+      list-style: none
+      padding: 0
+      margin: 0
+      li
+        &.active .icon-649
+          background-position: center
+        min-height: auto
+        width: 50%
+        p
+          display: none
+  #navigation
+    display: flex
+    justify-content: flex-end
+    padding-right: 15px
+    .navbar
+      padding: 0
+    .navbar-nav
+      margin-top: 111px
+      padding: 0 10px 0 30px
+      li
+        margin-bottom: 10px
+        display: block
+    button
+      background-color: #595f84
+      color: #ffffff
+      height: 50px
+      font-size: 16px
+      border-radius: 50px
+      -webkit-border-radius: 50px
+      -moz-border-radius: 50px
+      padding: 15px 20px
+      position: relative
+      z-index: 10
+    li a
+      background: #595f84
+    button span
+      &:first-child
+        padding-right: 10px
+        font-size: 20px
+      &:last-child
+        position: relative
+        bottom: 2px
+    .navbar-collapse
+      position: fixed
+      background-color: #353455
+      opacity: .9
+      width: 100%
+      top: 0
+      left: 0
+      height: 100%
+      z-index: 9
+      visibility: visible
+      -webkit-animation-fill-mode: both
+      -moz-animation-fill-mode: both
+      -ms-animation-fill-mode: both
+      -o-animation-fill-mode: both
+      animation-fill-mode: both
+      -webkit-animation-duration: 1s
+      -moz-animation-duration: 1s
+      -ms-animation-duration: 1s
+      -o-animation-duration: 1s
+      animation-duration: 1s
+      -webkit-animation-play-state: running
+      -moz-animation-play-state: running
+      -ms-animation-play-state: running
+      -o-animation-play-state: running
+      animation-play-state: running
+      animation-name: bounceInLeft
+      -webkit-animation-name: bounceInLeft
+      -moz-animation-name: bounceInLeft
+    a
+      margin-right: 15px !important
+      align-items: center
+      height: 60px
+  #navbarSupportedContent
+    ul.dropdown-menu
+      background: #353455
+      border: none
+      li
+        margin: 0
+        a
+          background: #353455
+          height: 35px
+  #game-play .group
+    .items
+      &:first-child
+        width: 35%
+      width: 63%
+      padding: 20px 10px 20px 5px
+      &:last-child
+        width: 100%
+        padding: 0 20px
+        margin: 0 0 20px 0
+    .draw
+      p
+        &:first-child
+          width: 47%
+          display: inline-block
+        &:last-child
+          font-size: 14px
+          display: inline-block
+      .count-time
+        display: inline-block
+        font-size: 20px
+        margin: 0
+  .sub-pages .logo
+    text-align: center
+  #navigation.kyc-menu
+    right: 15px
+  #block-banner
+    margin-top: 30px
+    h1
+      font-size: 68px
+    .block-awards:before
+      right: -112px
+  #block-latest-results
+    margin-top: 250px
+  #block-how
+    margin-top: 150px
+  #block-phases
+    .step
+      display: none
+    .step-mobile
+      display: block
+      text-align: center
+      margin-bottom: 30px
+      position: relative
+    .block-step-notes .item
+      max-width: 50%
+      flex: 50%
+    .step-mobile
+      &.active span
+        background-color: #FCC706
+      span
+        background-color: #3F4563
+        color: #fff
+        font-size: 24px
+        letter-spacing: 0.92px
+        font-weight: bold
+        border-radius: 50%
+        width: 60px
+        height: 60px
+        display: inline-block
+        line-height: 60px
+        position: relative
+        z-index: 1
+    .block-step-notes .items
+      box-shadow: none
+      -webkit-box-shadow: none
+      -moz-box-shadow: none
+  .wrapper-content ul.list-download
+    width: 100%
+  .list-download .button-download .icon
+    margin-right: 20px
+  .home-steps #steps
+    display: none
+  #block-latest-results
+    list-result
+      border-radius: 0 10px 10px 0
+    -webkit-border-radius: 0 10px 10px 0
+    -moz-border-radius: 0 10px 10px 0
+    .block-result, .list-result
+      max-width: 100%
+      width: 100%
+      flex: auto
+    .table-title thead tr th
+      text-align: left
+    table tbody td
+      text-align: left
+      padding-left: 9px
+    .table-title thead tr th:last-child
+      width: 10%
+  #block-accreditation
+    margin-top: 100px
+  .how-content
+    text-align: center
+    margin-top: 50px
+    .item
+      p
+        &:first-child
+          font-size: 14px
+          letter-spacing: 0.54px
+          line-height: 18px
+          color: #ffffff40
+        &:last-child
+          font-size: 18px
+          font-weight: bold
+          letter-spacing: 0.69px
+          line-height: 23px
+      img
+        width: 50%
+        height: auto
+      .img
+        width: 120px
+        height: 120px
+        margin: 0 auto
+        background: #ffffff12
+        border-radius: 50%
+        -webkit-border-radius: 50%
+        -moz-border-radius: 50%
+        display: flex
+        justify-content: center
+        margin-top: 30px
+    .owl-theme .owl-nav.disabled + .owl-dots
+      margin-top: 30px
+  .img-center img
+    width: 100%
+    height: auto
+  .randao-manual
+    .button-randao
+      width: 100%
+      padding: 15px 0
+    .img-center img
+      width: inherit
+  #block-accreditation
+    width: 100%
+  .wrapper-content .box ul li
+    max-width: 100%
+    flex: auto
+    margin-bottom: 10px
+  .block-game-play
+    .outer .pull-right:before
+      content: ''
+      display: none
+    .box #block-latest-results
+      .table-scroll tr td:last-child
+        display: block
+        p
+          display: block
+          width: 100%
+          text-overflow: ellipsis
+          white-space: nowrap
+          overflow: hidden
+      .table thead th:last-child
+        display: block
+    #block-latest-results .table-title
+      thead tr th:last-child
+        display: block
+      tr
+        display: flex
+        justify-content: left
+    table tbody tr
+      display: flex
+      justify-content: left
+    #block-latest-results
+      .table-title thead tr th
+        &:last-child
+          width: 32%
+        width: 29%
+      table tbody td
+        width: 23%
+  .wrapper-content .box ul li .inner
+    min-height: 0
+  #block-latest-results .result-number .item span
+    margin-right: 0
+    width: 40px
+    height: 40px
+    line-height: 40px
+    cursor: pointer
+  #terms
+    .group-section .number
+      width: inherit
+    ul li ul
+      padding-left: 15px
+  .text-box
+    font-size: 25px
+    margin-bottom: 0
+  .contact
+    width: 100%
+    .box
+      margin-bottom: 20px
+  .button-copy
+    top: 0
+    margin-top: 20px
+  .no-padding-left
+    padding-left: 15px !important
+  .no-padding-right
+    padding-right: 15px !important
+  .no-ticket, .date
+    margin-bottom: 20px
+  .sub-pages .small-box-page h5, .small-box h5
+    font-size: 35px
+    line-height: 40px
+  #block-phases .block-step-notes .outer
+    margin: 0 auto 80px auto
+  #steps
+    ul
+      text-align: center
+      li
+        &.active
+          display: block !important
+          width: 100%
+          left: 0
+        display: none
+    .line-progress
+      display: none
+  .menu-link
+    display: none
+  #terms .title-page
+    font-size: 30px
+    line-height: 45px
+  #footer
+    .pull-top ul
+      display: block
+      margin-bottom: 10px
+    .pull-left
+      float: right
+      margin-right: 0 !important
+    .pull-right
+      float: left
+      vertical-align: top
+    #navigation-footer
+      width: 79%
+    margin-top: 60px
+    .text-address
+      clear: both
+    .pull-bottom
+      display: block
+      .copy-right
+        margin-left: 0
+        text-align: center
+      .form-subscribe-input
+        display: flex
+        flex-direction: column
+        margin-top: 10px
+        align-items: center
+        justify-content: center 
+      .form-subscribe
+        text-align: center
+    .block-logo ul
+      text-align: center
+  #block-latest-results
+    table.table-detail tbody td
+      width: 20%
+      &:last-child
+        text-align: right
+  .content-notification, .content-history
+    top: 0
+    left: 0
+    width: 100%
+    z-index: 999999
+  .circle-noti
+    right: 0
+    top: 13px
+.table td, .table th
+  padding: .55rem .75rem
+  border-bottom: 1px solid #ffffff31 !important
+  border-top: transparent
+  vertical-align: middle
+  font-weight: 200
+  .reward_txt
+    font-weight: bold
+.custom-table tr,.custom-table td
+  border-bottom: 1px solid #ffffff31 !important
+.custom-table tr p, .custom-table td p 
+  margin-bottom: 0rem
+.custom-table tr td:last-child
+  display: table-cell !important
+.custom-table tr:first-child,.custom-table tr:first-child td
+  border-top: none !important
+
+@media (min-width: 768px)
+  #modalSettingFavorite  .tbpop .favorite-tb > td:first-child
+    width: 434px;
+
+/*Mobile
+
+@media (max-width: 768px)
+  #modalSettingFavorite .button-bottom-modal
+    text-align: center !important
+  .modal-favorite
+    .no-number-custom
+      display: grid
+      grid-template-columns: auto auto auto auto auto auto auto auto auto auto
+    .modal-content
+      width: 79%
+      margin: 0 auto
+    .tbpop
+      margin: 0 auto
+      tbody
+        .favorite-tb
+          .listFv
+            min-width: 170px
+            max-height: 250px
+          display: flex
+          flex-direction: column-reverse
+  .claim-winning-total .row
+    justify-content: space-between
+    flex-direction: column
+    >div
+      justify-content: space-between
+  .claim-winning-total .row >div, .claim-winning-total .row >div > div 
+    margin-left: 0px
+  .claim-winning-total 
+    .claim_winning
+      margin: 0 auto !important
+  .ticket 
+    .inner-ticket::after
+      top: 114px
+      transform: scale(2.15) !important
+  .section-bottom-buy 
+    flex-direction: column
+    text-align: center
+    align-items: center
+    .col-4
+      max-width: 100%;
+      text-align: left;
+  #block-phases .block-step-notes .outer
+    width: 340px 
+  .outer .comming-soon img
+    width: auto
+  .tab-gaming.nav-tabs 
+    .nav-item 
+      .nav-link 
+        font-size: 13px
+  .navigation 
+    .link-navigation 
+      li 
+        a
+          padding: 10px
+  #side-menu ul li a
+    .icon-menu
+      position: relative
+      top: 50%
+      transform: translateY(-50%)
+    height: 100%
+    min-height: 50px
+    display: block
+    padding: 0
+  #popup-notice .modal-dialog
+    min-width: 500px
+    height: 97%
+
+  .button-limit
+    display: block
+    width: 100%
+    text-align: center
+  .button-join
+    padding: 15px 50px
+    font-size: 14px
+  #block-banner
+    h1
+      font-size: 51px
+      line-height: 55px
+      margin: 15px 0
+    h2
+      font-size: 14px
+    .block-awards
+      width: 100%
+      p, h6
+        position: relative
+        z-index: 6
+      &:before
+        display: block
+      &:after
+        /*left: 0
+        display: none
+  #block-latest-results
+    .mCSB_container_wrapper > .mCSB_container
+      padding-right: 0
+    table tbody td
+      width: 30%
+      padding: 12px 0
+      p
+        font-size: 16px
+
+  .box-scroll .mCSB_container
+    padding-right: 15px
+
+  .all-number .card-header p
+    display: none
+  .tab-content-gaming
+    padding: 10px
+  .choose-ticket
+    padding: 15px
+    .function-ticket
+      right: 15px
+      a
+        width: 30px
+        height: 30px
+        line-height: 30px
+        font-size: 12px
+
+  .modal-medium-box .choose-ticket .number-ticket
+    position: relative
+    font-size: 18px
+    top: 10px
+  .box-scroll
+    height: 350px
+  .all-number .card-header h5 button
+    height: 50px
+    padding: 0 16px
+    margin-right: 5px
+  .tab-type
+    padding-left: 0
+    display: flex
+    align-items: center
+  #game-play .group .items img
+    width: 100%
+    height: auto
+  .tab-type
+    li
+      margin-right: 0
+  .all-number
+    .head-number 
+      padding: 5px
+      .item.active
+        margin-right: 5px !important
+    .no-number .item, .number-result .outer .item, .head-number .item.active
+      width: 33px
+      height: 33px
+      font-size: 13px
+      line-height: 33px
+      margin-bottom: 5px
+  .modal-medium-box
+    .table-title th, .table-modal td
+      min-width: 100%
+    .table-modal td
+      &:nth-child(4)
+        text-align: right
+  .link-setting
+    margin-right: 8px
+  .link-right
+    position: relative
+    float: inherit
+    display: inline-block
+    margin-top: 12px
+  .all-number
+    .number-result .outer
+      .item
+        margin-right: 15px
+        margin-bottom: 7px
+      top: -17px
+    .no-number
+      grid-template-columns: auto auto auto auto auto auto auto
+      margin-top: 0
+  .card-body
+    padding: 15px
+
+  #block-phases .block-step-notes .item
+    max-width: 100%
+    flex: 100%
+  .block-game-play #block-latest-results table tbody td
+    width: 18%
+  .list-steps
+    .pull-left, .pull-right
+      width: 100%
+    width: 100%
+    .pull-left ul li
+      .img
+        width: 23%
+        margin-right: 0
+      .content-right
+        width: 67%
+    .pull-right .img-steps
+      margin: 20px 0 50px 0
+  .button-let-steps
+    width: 100%
+    font-size: 17px
+  .title-section
+    font-size: 43px
+    line-height: 60px
+  .link-forgot
+    width: 100%
+  .link-login
+    width: 100%
+    position: relative
+    bottom: inherit
+    right: inherit
+    margin-top: 20px
+    top: 0
+    a
+      width: 100%
+      display: inline-block
+      text-align: center
+  .link-back-login
+    margin: 20px 0 30px 0
+    position: relative
+    width: 100%
+    top: 0
+    display: block
+    left: 0
+    text-align: center
+  .wrapper-content .small-box .block-level .group .row > div
+    padding-right: 15px !important
+    margin-top: 20px
+  .sub-pages .small-box-page h5, .small-box h5
+    margin-bottom: 0
+  #block-latest-results
+    table.table-detail tbody td
+      width: 29%
+  #block-how
+    margin-top: 100px
+  #block-phases
+    margin-top: 200px
+  .wrapper-content .small-box
+    width: 100%
+    background-color: #53527a
+  .link-sign-up
+    width: 100%
+    text-align: left
+    a
+      display: block
+      text-align: center
+  .text-condition ul li
+    width: 100%
+  .ticket .inner-ticket .title-head-ticket
+    margin-top: 15px
+  #footer
+    #navigation-footer
+      width: 70%
+    .pull-bottom input
+      &[type='text']
+        width: 100%
+      &[type='submit']
+        width: 100%
+        margin: 10px 0 0 0
+  #block-latest-results
+    .back-detail
+      position: relative
+      right: 0
+    .result-number .owl-carousel .owl-nav
+      .owl-prev
+        left: 20px
+      .owl-next
+        right: 20px
+  .title-box
+    font-size: 31px
+    margin-bottom: 10px
+  .form-field-file.behalf
+    width: 100%
+  .wrapper-content .box .item-box
+    min-height: 0
+  .qr-image img
+    max-width: 100%
+    height: auto
+  .count-down-block .countdown_form 
+    .countdown_item
+        margin-right: 15px
+        transition: 0.5s all ease
+        .countdown_number
+          font-size: 28px !important
+          &::after
+            right: -8px
+            transition: 0.5s all ease
+            top: 0 !important
+  #game-play .group .jackpot      
+    h5
+      font-size: 24px !important   
+  .eth-custom p
+    font-size: 28px !important
+    text-overflow: none
+    max-width: 1000px
+    line-height: 30px !important
+@media (max-width: 576px)
+  .modal-favorite .modal-content
+    width: 100%
+  #slider-banner-home-game 
+    .slidesNavigation
+      bottom: -20px
+
+  .toast_notification 
+    width: 330px
+    padding: 15px
+  .title__faq
+    font-size: 37px
+    line-height: 42px
+  .block-game-play 
+    .pull-right 
+      .text-awards
+        font-size: 31px
+  .carousel
+    height: 220px
+    img
+      height: 220px !important
+  .eth-custom p
+    font-size: 30px !important
+    text-overflow: none
+    max-width: 1000px
+  #block-latest-results .table-title
+    min-width: 500px
+  #block-latest-results 
+      .row 
+        margin-right: -15px !important
+        margin-left: -15px !important
+  #block-banner 
+      .block-awards:before
+        content: ""
+        display: block
+        position: absolute
+        width: 198px
+        height: 361px
+        right: -38px !important
+        top: 39px
+        z-index: 3
+  .content-history.show-menu
+    top: 135px
+    padding: 0 20px
+    &:before
+      content: "History"
+      font-family: GROBOLD
+      letter-spacing: 0.15px
+      line-height: 36px
+      height: 36px
+      font-size: 30px
+      color: #FFFFFF
+      position: absolute
+      top: 30px
+      left: 40px
+    ul
+      border-radius: 10px
+      padding-top: 80px
+      padding-bottom: 10px
+      margin: 0
+      li a
+        font-size: 16px
+        font-weight: bold
+        display: block
+  #game-play
+    .section-payment-right-mobile.sticky-mobile
+      display: flex
+      flex-direction: row
+      position: fixed
+      bottom: 0
+      height: 50px
+      width: 100%
+      background-color: #323150
+      box-shadow: 0 -2px 7px 0 rgba(0, 0, 0, 0.5)
+      z-index: 8
+      justify-content: space-evenly
+      align-items: center
+      div p
+        margin: 0
+      .payment-title
+        font-size: 15px
+        height: 18px
+      .payment-value
+        font-size: 15px
+        color: #FFCF20
+        font-weight: bold
+      .payment-text
+        font-size: 20px
+        font-weight: bold
+  .modal-medium-box .modal-header h5
+    font-size: 21px !important
+  #modalSummary
+    .modal-body
+      .table-title th
+        //border-bottom: 1px solid
+        min-width: auto
+      .table-modal
+        td
+          min-width: auto
+    .button-bottom-modal
+      text-align: center
+      .button
+        font-size: 15px
+    margin-top: 80px
+    .modal-header
+      padding-top: 3rem
+      button.close
+        position: absolute
+        top: 30px
+        right: 38px
+        padding: 0
+
+  .border-radius-none-sm
+    border-radius: 0 !important
+  #side-menu ul li a
+    .icon-menu
+      position: relative
+      top: 50%
+      transform: translateY(-50%)
+    height: 100%
+    min-height: 50px
+    display: block
+    padding: 0
+  #popup-notice .modal-dialog
+    min-width: 330px
+    div.buttons.two-buttons
+      text-align: center
+  .link-add-ticket
+    margin-top: 10px
+  #block-rules-and-information .container
+    padding-left: 0
+    padding-right: 0
+    .nav-tabs.tab-gaming
+      border-radius: 10px 10px 0 0
+    .tab-content.about-the-game .inner
+      padding: 25px 15px
+      .wrapper-content .title
+        font-size: 24px
+  .all-number
+    .head-number
+      grid-template-columns: auto auto auto auto auto auto
+      padding-top: 12px
+      padding-bottom: 12px
+      .number-result
+        .outer
+          grid-template-columns: auto auto auto auto auto auto !important
+          border-bottom: 1px solid #62618E
+          .item
+            width: 33px
+            height: 33px
+            line-height: 33px
+        .set-number
+          padding-top: 15px
+    .outer-number
+      .no-number
+        .item
+          width: 33px
+          height: 33px
+          line-height: 33px
+          margin-right: 9px
+          margin-bottom: 8px
+  #block-rules-and-information
+    .list-scroll
+      padding-right: 5px
+      .mCSB_container_wrapper>.mCSB_container
+        padding-right: 0
+  #block-latest-results .result-number
+    .item p:first-child
+      font-size: 22px
+    .item
+      span:not(.bonus-text)
+        width: 33px
+        height: 33px
+        line-height: 36px
+        font-size: 16px
+        margin-right: 5px
+      span.bonus-set-number
+        margin-left: 0 !important
+      .draw-result-prev,
+      .draw-result-next
+        position: relative
+        top: -2px
+
+  .tab-gaming.nav-tabs
+    li
+      a.nav-link
+        padding: 15px 20px !important
+        font-size: 14px
+  .modal#qrcode-649
+    .modal-header
+      padding-top: 30px
+      .text-qr-head
+        font-size: 43px !important
+        height: 52px
+        line-height: 52px !important
+    .modal-body.qrcodea
+      .group
+        margin-bottom: 0
+    .qr-image
+      width: 200px
+      height: 200px
+      .qr-image-inner
+        width: 210px
+        height: 210px
+        padding: 10px !important
+      canvas
+        width: 100% !important
+        height: 100% !important
+@media (max-width: 414px)
+  .listFv .link-add-ticket
+    font-size: 14px
+  .modal-favorite .favorite-tb
+    .outer-number
+      width: 100%
+  .modal-box .modal-header
+    h5
+      font-size: 25px
+  .section-bottom
+    .time-left
+      margin-bottom: 20px
+    .time-right
+      margin-bottom: 20px
+  .tab-gaming-home li
+    width: 50% !important
+  .tab-gaming li
+    width: 33.33%
+  .toast_notification 
+    width: 320px
+    padding: 10px
+  #game-play .group .jackpot p:last-child
+    min-width: 200px
+  .title__faq
+    font-size: 26px
+    line-height: 30px
+  .box-scroll
+    .mCSB_inside>.mCSB_container
+      margin-right: 0px !important
+    min-width: 320px
+  #block-banner .block-awards:before
+    width: 160px
+    height: 160px
+    top: 75px
+  .custom__usd
+    font-size: 16px
+  #block-banner .block-awards h6
+    font-size: 40px !important
+  .custom > div
+    font-size: 26px
+    span
+      font-size: 20px !important
+  #block-phases .block-step-notes .outer
+    width: 340px  
+  .all-number .head-number .item.active 
+    width: 33px
+    height: 33px
+    line-height: 33px
+    display: inline-block;
+  .all-number .number-result .outer .item
+    width: 33px
+    height: 33px
+    line-height: 33px
+    margin-bottom: 5px
+  .all-number .number-result .outer
+    top: -21px
+  .count-down-block .countdown_form 
+    .countdown_item
+        margin-right: 15px
+        transition: 0.5s all ease
+        .countdown_number
+          font-size: 18px !important
+          &::after
+            right: -8px
+            transition: 0.5s all ease
+            top: 0 !important  
+            font-size: 15px !important
+  #game-play .group .jackpot      
+    h5
+      font-size: 20px !important
+      margin-bottom: 0px;
+  .eth-custom p
+    font-size: 18px !important
+    text-overflow: none
+    max-width: 1000px
+@media (max-width: 375px)
+  .modal-favorite .favorite-tb
+    .outer-number
+      width: 100%
+  .modal-box .modal-header
+    h5
+      font-size: 22px
+  #game-play .group .jackpot      
+    h5
+      font-size: 18px !important   
+  .count-down-block 
+    .countdown_form 
+      .countdown_item
+        margin-right: 15px
+        transition: 0.5s all ease
+        .countdown_number
+          font-size: 18px !important
+          &::after
+            right: -8px
+            transition: 0.5s all ease
+            top: 0 !important
+            font-size: 14px
+  .eth-custom p
+    font-size: 18px !important
+    text-overflow: none
+    max-width: 1000px
+    line-height: 25px !important
+  .block-game-play 
+    .pull-right 
+      .text-awards
+        font-size: 24px
+      span
+        font-size: 18px !important
+  #block-banner .block-awards h6
+    font-size: 28px !important
+  .custom__usd
+    font-size: 14px !important
+  .list-download .button-download .icon
+    margin-right: 15px
+  #block-phases .block-step-notes .text-randao.with-description
+    font-size: 14px
+    line-height: 14px
+  #block-phases .block-step-notes .outer
+    width: 320px  
+  .all-number .outer-number .no-number .item
+    margin-right: 5px
+  .all-number .number-result .outer .item
+    width: 30px
+    height: 30px
+    line-height: 30px
+    margin-bottom: 5px
+    margin-right: 10px
+  .block-logo ul
+    li
+      a
+        img
+          height: 25px 
+
+@media (max-width: 360px)
+  #modalSettingFavorite .listFv
+    padding-left: 0px !important
+  .modal-favorite .favorite-tb
+    .outer-number
+      width: 100%
+  .title__faq
+    font-size: 18px
+    line-height: 24px
+  .block-game-play .pull-right .text-usd
+    font-size: 20px
+  .block-game-play 
+    .pull-right 
+      .text-awards
+        font-size: 22px
+  .custom_pri > div
+    font-size: 18px !important
+    span
+      font-size: 14px !important
+  #block-banner .block-awards:before
+    width: 140px
+    height: 140px
+    top: 100px
+  .list-download .button-download .icon
+    margin-right: 6px
+  #block-phases .block-step-notes .outer
+    width: 300px  
+  .block-649 .comming-soon img, .block-545 .comming-soon img, .block-raffle .comming-soon img
+    width: 100%
+  .all-number 
+    .outer-number .no-number .item,
+    .head-number .item.active
+      width: 30px
+      height: 30px
+      line-height: 30px
+      margin-bottom: 8px
+@media (max-width: 320px)
+  .modal-favorite .favorite-tb
+    .outer-number
+      width: 100%
+  .modal-box 
+    .modal-header
+      padding: 25px 30px 10px 16px
+      h5
+        font-size: 18px
+  #game-play .group .jackpot      
+    h5
+      font-size: 16px !important   
+  .count-down-block 
+    .countdown_form 
+      .countdown_item
+        margin-right: 15px
+        transition: 0.5s all ease
+        .countdown_number
+          font-size: 18px !important
+          &::after
+            right: -7px !important
+            transition: 0.5s all ease
+            top: 0 !important
+            font-size: 14px
+  .eth-custom p
+    font-size: 18px !important
+    text-overflow: none
+    max-width: 1000px
+    line-height: 20px !important
+  .block-game-play 
+    .pull-right 
+      .text-awards
+        font-size: 24px
+      span
+        font-size: 18px !important
+  .block-game-play .pull-right .text-usd
+    font-size: 18px
+  .block-game-play 
+    .pull-right 
+      .text-awards
+        font-size: 20px
+      span
+        font-size: 16px
+  #footer
+    .pull-bottom      
+      .copy-right
+        font-size: 13px
+        line-height: 13px
+  #block-phases .block-step-notes .text-randao.with-description
+    font-size: 13px
+    line-height: 13px
+  #block-phases .block-step-notes .outer
+    width: 290px  
+  .all-number .head-number .item
+    width: 31px
+    height: 31px
+  .all-number .outer-number .no-number .item
+    width: 27px
+    height: 27px
+    line-height: 27px
+    margin-right: 3px
+    margin-bottom: 8px
+  .all-number .number-result .outer .item
+    width: 28px
+    height: 28px
+    line-height: 28px
+    margin-bottom: 5px
+    margin-right: 8px
+  .border-radius-none
+    border-radius: 0 !important
+  #qrcode-649.modal-box
+    .token-number
+      margin: 0
+      padding-right: 80px
+      line-height: 50px !important
+      height: 50px
+      position: relative
+      .button-copy
+        position: absolute
+        top: 0
+        right: 0
+        width: 70px
+        height: 50px
+        line-height: 50px
+        padding: 0
+        margin: 0
+        background-color: #424164
+    .button-open
+      margin: 0 0 5px 0 !important
+    .modal-header
+      padding: 25px 30px 10px 30px
+      h5
+        font-size: 41px
+    .modal-body .qr-image
+      width: 180px
+      height: 180px
+      margin-bottom: 20px
+      .qr-image-inner
+        padding: 10px !important
+        width: 100%
+        height: 100%
+        canvas
+          width: 100% !important
+          height: 100% !important
+
+  #modalSummary.modal-box
+    .modal-header h5
+      font-size: 21px !important
+    .button
+      font-size: 17px
+
+  #side-menu ul li a
+    .icon-menu
+      position: relative
+      top: 50%
+      transform: translateY(-50%)
+    height: 100%
+    min-height: 50px
+    display: block
+    padding: 0
+  #popup-notice .modal-dialog
+    min-width: 280px
+  #footer #navigation-footer
+    width: 68%
+  .text-404
+    font-size: 130px
+  .modal-header
+    display: block
+    padding: 25px 30px 10px 30px
+  .link-register
+    position: relative
+    width: 100%
+    top: 0
+    display: block
+    left: 0
+    text-align: center
+  .modal-box .close
+    position: absolute
+    right: 27px
+    top: 20px
+    padding: 0
+  .block-game-play .box .function a
+    display: block
+    margin-bottom: 15px
+  .list-download
+    .button-download .icon
+      margin-right: 0
+    .text-download
+      font-size: 14px
+    .button-download .icon
+      padding: 15px 19px
+      
+
+.clear-fix-pagination
+  position: relative
+  top: 20px
+
+.content-history-home 
+  margin-top: 60px
+  h1
+    font-family: 'GROBOLD'
+  ul
+    display: flex
+    justify-content: center
+    flex-direction: column
+    align-items: center
+    margin-top: 20px !important
+    li 
+      font-weight: bold
+      a
+        p
+          padding-left: 5px
+#footer
+  .content-footer
+    a
+      color: #FFCF20
+.jackpot_group
+  display: grid
+  grid-template-columns: auto auto
+  .status
+    font-size: 14px !important
+    padding: 7px 20px;
+    font-weight: bold;
+    margin: 0 0 17px;
+#download-page
+  &.wrapper-content
+    .box
+      h3
+        font-family: 'GROBOLD'
+        font-size: 43px
+        line-height: 52px
+        text-shadow: 0 0 10px 0 rgba(73, 73, 114, 0.2)
+        text-align: center
+        letter-spacing: 1.33px
+        margin: 30px 0 30px 0
+
+.notice-tab-gameplay-649
+  box-sizing: border-box
+  height: auto
+  min-height: 51px
+  display: flex
+  align-items: center
+  border: 1px solid #FAF2CC	
+  border-radius: 4px	
+  background-color: #FCF8E3
+  p
+    margin: 0
+    padding: 0
+    height: auto
+    color: #8A6D3B
+    font-size: 16px
+    line-height: 20px
+    margin-left: 10px
+  span
+    font-weight: bold   
+
+#slider-banner-home-game
+  overflow: visible
+  max-width: 560px
+  .slides
+    overflow: visible
+    .block-awards 
+      margin: 0
+    .text-center
+      position: relative
+      left: -50%
+      margin-top: 30px
+  .slidesNavigation   
+    z-index: 1
+.accordion-index-flex
+  display: flex;
+  max-width: 560px;
+  margin: 0 auto 50px auto;
+  #slider-banner-home-game .slides .text-center
+    left: 0
+
+#modalSettingFavorite, #modalSettingFavorite545
+  .dix
+    opacity: 0.3
+  .numberwp
+    background-color: #3F3F65;
+    border-radius: 6px;
+    padding: 5px;
+    margin: 0 19px 0 0;
+  .numberTicket button,
+  .listFv button
+    width: 33px;
+    height: 33px;
+    border-radius: 50%;
+    border: 1px solid #7D7CBC;
+    background: #4E4D79;
+    font-size: 12px;
+    font-weight: bolder;
+    color: #fff;
+    text-align: center;
+    padding: 5px;
+    margin: 4px;
+  .numberTicket .checked
+    background: #EFEFF6;
+    border: 1px solid transparent;
+    color: #000;
+    animation: animation .3s ease !important;
+  .listFv ul
+    margin: 0;
+    padding: 0;
+  .listFv .checked 
+    background: #EFEFF6;
+    border: 1px solid transparent;
+    color: #000;
+    animation: animation .3s ease !important
+  .tbpop td
+    vertical-align: top;
+    margin-bottom: 20px;
+  .listFv input
+    height: 20px;
+    vertical-align: middle;
+    width: 20px;
+  .listFv .cbdt button
+    line-height: 24px;
+    height: 24px;
+    width: 20px
+    cursor: pointer;
+    border: 0;
+    font-size: 24px;
+    box-sizing: content-box;
+    background: transparent;
+    &:active
+      opacity: 0.8;
+  .listFv .cbls button
+    margin: 2px;
+    padding: 2px;
+    width: 25px;
+    height: 25px;
+    box-sizing: content-box;
+  .listFv li
+    border-bottom: 1px solid #FFFFFF;
+    margin: 0 0 5px 0;
+    list-style: none;
+    table
+      width: 100%
+      tr
+        display: flex
+        align-items: center
+        justify-content: space-between
+  .listFv li.active
+    border-bottom: 1px solid #FFCF20;
+  .listFv .del
+    font-size: 15px;
+    margin: 20px auto;
+    display: block;
+    border-radius: 50px;
+    width: 75%;
+    height: auto;
+    padding: 10px 0;
+    border: 1px solid #fff;
+    text-transform: uppercase;
+  .listFv
+    padding: 0px 10px 0px 20px !important
+    overflow: auto;
+    overflow-x: hidden;
+  .listFv td 
+    vertical-align: middle;
+  .err
+    text-align: right;
+    padding: 10px;
+    color: red;
+    min-height: 40px;
+    box-sizing: border-box;
+  .button-bottom-modal
+    text-align: right;
+    padding: 0 20px 20px;
+    .cls
+      color: #fff;
+      background: transparent;
+      border: 0;
+      padding: 10px 20px;
+      text-transform: uppercase;
+      font-size: 14px;
+    .save
+      background-color: #FFCF20;
+      color: #fff;
+      display: inline-block;
+      padding: 10px 50px;
+      border-radius: 30px;
+      font-size: 13px;
+      height: 50px;
+      line-height: 30px;
+      &.disabled
+        color: rgba(255,255,255,0.5)
+        pointer-events: none;
+        border: 2px solid;
+        background: #777;
+.pick-favorite-error
+  font-weight: 300;
+  color: rgb(255, 207, 32);
+  padding: 0px 20px;
+  text-align: center;
+.bs-tooltip-top .arrow::before
+  border-top-color: #fff;
+.tt-latest
+  padding: 0 20px 0 0;
+.tt-latest-icon
+  font-size: 25px;
+.favorite-tb .all-number .no-number 
+  margin-top: 0;
+  max-width: 400px;
+  display: inline-block;
+  text-align: left;
+  .item
+    margin: 5px;
+    display: inline-block;
+.ios #modalSettingFavorite .listFv, .ios #modalSettingFavorite545 .listFv
+    padding-left: 0 !important;
+#navigation a span
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+.qrcode-limit-error 
+    position: absolute;
+    top: 0;
+    background: rgba(0, 0, 0, 0.85);
+    left: 0;
+    padding: 50px 30px;
+    min-height: 240px;
+.tbpop
+    width: 100%;
+    .all-number
+      max-width: 440px;
+      margin: 0 auto;
+#self .modal-dialog, #limit .modal-dialog, #popup-notice .modal-dialog
+    max-width: 600px;
+#limit .buttons, #self .buttons
+    text-align: center;
+#limit .buttons .button, #self .buttons .button
+    max-width: 200px;
+    margin: 5px 10px;
+.upcase
+    text-transform: uppercase;
+.button-limit
+    text-align: center !important;
+.table-scroll-all-claim
+    max-height: 421px;
+
+.lang-selects
+    .dropdown-menu
+        background-color: #53527A;
+#navigation .lang-selects button
+    padding-top: 17px;
+    min-width: 120px;
+    display: inline-block;
+    padding-right: 30px;
+#navigation .lang-selects button::after
+    content: "‣";
+    transform: rotate(90deg);
+    position: absolute;
+    background: initial;
+    height: initial;
+    width: initial;
+    right: 17px;
+    top: 16px;
+    font-size: 21px;
+#navigation .lang-selects button img
+    border-radius: 0;
+    width: 20px;
+    height: 20px;
+    margin: 0 5px;
+.hidden
+    display: none;
