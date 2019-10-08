@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/pwa-demo/static/css/main.a218ef23.chunk.css",
-    "main.js": "/pwa-demo/static/js/main.91941f9e.chunk.js",
+    "main.js": "/pwa-demo/static/js/main.590a9bef.chunk.js",
     "runtime-main.js": "/pwa-demo/static/js/runtime-main.a04815b9.js",
     "static/js/2.c5ad9b5a.chunk.js": "/pwa-demo/static/js/2.c5ad9b5a.chunk.js",
     "index.html": "/pwa-demo/index.html",
-    "precache-manifest.3815c5eabaff0e3ae1b45036db380836.js": "/pwa-demo/precache-manifest.3815c5eabaff0e3ae1b45036db380836.js",
+    "precache-manifest.ea2d8eb74129ac9d8acb9c07dcd477b0.js": "/pwa-demo/precache-manifest.ea2d8eb74129ac9d8acb9c07dcd477b0.js",
     "service-worker.js": "/pwa-demo/service-worker.js",
     "static/media/demo.css": "/pwa-demo/static/media/lotto649_inactive.7188a0d6.svg"
   }
