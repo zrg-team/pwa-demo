@@ -62,8 +62,8 @@ export default class Demo extends React.Component {
                           <span className='status selling'>Selling</span>
                         </div>
                         <div className='link'>
-                          <a href='#' data-toggle='modal' data-target='#limit'>Limit my plays</a>
-                          <a href='#' data-toggle='modal' data-target='#self'>Self Exclude</a>
+                          <a href='https://zrg-team.github.io/pwa-demo/' data-toggle='modal' data-target='#limit'>Limit my plays</a>
+                          <a target='_blank' rel='noopener noreferrer' href='https://zrg-team.github.io/pwa-demo/' data-toggle='modal' data-target='#self'>Self Exclude</a>
                         </div>
                       </div>
                     </div>

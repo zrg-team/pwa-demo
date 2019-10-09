@@ -1,7 +1,7 @@
 import { connect } from 'react-redux'
 import Demo from '../components/Demo'
 import exampleHandlers from '../handlers'
-import { MODULE_NAME as MODULE_HOME } from '../models'
+// import { MODULE_NAME as MODULE_HOME } from '../models'
 
 const mapDispatchToProps = (dispatch, props) => ({
   ...exampleHandlers(dispatch, props)
