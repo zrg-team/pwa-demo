@@ -11,7 +11,7 @@ import {
 import { setCookie } from './utils/cookies'
 import { clearAll } from './actions/common'
 import storeAccessible from './utils/storeAccessible'
-import { MODULE_NAME as MODULE_USER } from '../modules/user/models'
+// import { MODULE_NAME as MODULE_USER } from '../modules/user/models'
 
 export async function loading (fetchingProcess, done = undefined) {
   storeAccessible.dispatch(loadStart({ config: { key: 'loading' } }))
@@ -83,17 +83,17 @@ export function fetchLoading ({ url, headers, ...options }) {
 }
 
 export function fetchAuth ({ url, headers, ...options }) {
-  const user = storeAccessible.getState(MODULE_USER)
-  if (!user || !user.token) {
-    throw new Error('MISSING_USER_TOKEN')
-  }
+  // const user = storeAccessible.getState(MODULE_USER)
+  // if (!user || !user.token) {
+  //   throw new Error('MISSING_USER_TOKEN')
+  // }
   return axios({
     method: 'GET',
     timeout: TIMEOUT,
     url,
     headers: {
       'Content-Type': 'application/json',
-      Authorization: `Bearer ${user.token}`,
+      Authorization: `Bearer ${''}`,
       ...headers
     },
     ...options
@@ -108,10 +108,10 @@ export function fetchAuth ({ url, headers, ...options }) {
 }
 
 export function fetchAuthLoading ({ url, headers, ...options }) {
-  const user = storeAccessible.getState(MODULE_USER)
-  if (!user || !user.token) {
-    throw new Error('MISSING_USER_TOKEN')
-  }
+  // const user = storeAccessible.getState(MODULE_USER)
+  // if (!user || !user.token) {
+  //   throw new Error('MISSING_USER_TOKEN')
+  // }
   storeAccessible.dispatch(fetchStart({ config: { key: url } }))
   return axios({
     method: 'get',
@@ -119,7 +119,7 @@ export function fetchAuthLoading ({ url, headers, ...options }) {
     url,
     headers: {
       'Content-Type': 'application/json',
-      Authorization: `Bearer ${user.token}`,
+      Authorization: `Bearer ${''}`,
       ...headers
     },
     ...options

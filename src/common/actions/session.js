@@ -13,3 +13,5 @@ export const authetication = createAction('AUTHENTICATION')
 export const setSessionMessages = createAction('SET_SESSION_MESSAGE')
 
 export const setSessionLoading = createAction('SET_SESSION_LOADING')
+
+export const setHeaderData = createAction('SET_HEADER_DATA')

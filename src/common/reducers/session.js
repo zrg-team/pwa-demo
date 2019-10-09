@@ -18,7 +18,8 @@ const defaultState = {
   loadingCount: 0,
   isLoading: false,
   messages: {},
-  sessionLoading: false
+  sessionLoading: false,
+  headerData: null
 }
 
 const handlers = {
@@ -59,6 +60,12 @@ const handlers = {
     return {
       ...state,
       sessionLoading: action.payload
+    }
+  },
+  [actions.setHeaderData]: (state, action) => {
+    return {
+      ...state,
+      headerData: action.payload
     }
   }
 }

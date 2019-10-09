@@ -9,7 +9,7 @@ export default class Root extends Component {
   constructor (props) {
     super(props)
     this.servicePrompt = null
-    this.serviceRegistration = this.serviceRegistration.bind(this)
+    this.mainPageLoaded = this.mainPageLoaded.bind(this)
   }
 
   shouldComponentUpdate (nextProps, nextState) {
@@ -82,6 +82,10 @@ export default class Root extends Component {
     }
   }
 
+  mainPageLoaded (dispatch) {
+    this.serviceRegistration()
+  }
+
   render () {
     const { store, persistor, history } = this.props
     return (
@@ -91,7 +95,7 @@ export default class Root extends Component {
             store={store}
             history={history}
             persistor={persistor}
-            mainPageLoaded={this.serviceRegistration}
+            mainPageLoaded={this.mainPageLoaded}
           />
         </PersistGate>
       </Provider>

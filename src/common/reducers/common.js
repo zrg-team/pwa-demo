@@ -3,7 +3,8 @@ import * as actions from '../actions/common'
 
 export const defaultState = {
   language: 'en',
-  timeout: 30000
+  timeout: 30000,
+  route: {}
 }
 
 const handlers = {
@@ -18,6 +19,12 @@ const handlers = {
     return {
       ...state,
       timeout: action.payload
+    }
+  },
+  [actions.setRoute]: (state, action) => {
+    return {
+      ...state,
+      route: action.payload
     }
   }
 }

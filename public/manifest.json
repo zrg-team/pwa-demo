@@ -18,8 +18,15 @@
       "sizes": "512x512"
     }
   ],
-  "start_url": ".",
+  "start_url": "https://zrg-team.github.io/pwa-demo/",
+  "scope_url": "https://zrg-team.github.io/pwa-demo/",
+  "intent_filters": {
+    "scope_url_scheme": "pwa",
+    "scope_url_host": "zrg-team.github.io",
+    "scope_url_path": "/pwa-demo"
+  },
   "display": "standalone",
   "theme_color": "#000000",
+  "orientation": "portrait",
   "background_color": "#ffffff"
 }
