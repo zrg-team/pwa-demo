@@ -21,9 +21,13 @@
   "start_url": "https://zrg-team.github.io/pwa-demo/",
   "scope_url": "pwa://zrg-team.github.io/pwa-demo/",
   "intent_filters": {
-    "scope_url_scheme": "pwa",
+    "scope_url_scheme": "https",
     "scope_url_host": "zrg-team.github.io",
     "scope_url_path": "/pwa-demo"
+  },
+  "bound_webapk": {
+    "runtime_host": "com.google.android.apps.chrome",
+    "runtime_host_application_name": "Chromium"
   },
   "display": "standalone",
   "theme_color": "#000000",
