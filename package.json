@@ -4,7 +4,7 @@
   "private": true,
   "homepage": "https://zrg-team.github.io/pwa-demo",
   "dependencies": {
-    "axios": "^0.19.0",
+    "axios": "^0.21.1",
     "bignumber.js": "^9.0.0",
     "cra-append-sw": "^2.6.1",
     "i18n-js": "^3.3.0",
