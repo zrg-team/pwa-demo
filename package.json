@@ -8,7 +8,7 @@
     "bignumber.js": "^9.0.0",
     "cra-append-sw": "^2.6.1",
     "i18n-js": "^3.3.0",
-    "moment": "^2.24.0",
+    "moment": "^2.29.4",
     "react": "^16.10.1",
     "react-dom": "^16.10.1",
     "react-notification-system": "^0.2.17",
